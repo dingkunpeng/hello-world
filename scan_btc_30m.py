@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import csv, json, math, time
+import csv, json, time, io, zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 import requests
@@ -13,20 +13,24 @@ OUT=Path('output')
 OUT.mkdir(exist_ok=True)
 
 SPOT_URL='https://data-api.binance.vision/api/v3/klines'
-INDEX_URL='https://fapi.binance.com/fapi/v1/indexPriceKlines'
+ARCHIVE='https://data.binance.vision/data/futures/um'
 
 
-def get_json(url, params, tries=6):
+def get(url, params=None, tries=6):
     last=None
     for i in range(tries):
         try:
-            r=requests.get(url, params=params, timeout=30)
+            r=requests.get(url, params=params, timeout=45)
             r.raise_for_status()
-            return r.json()
+            return r
         except Exception as e:
             last=e
             time.sleep(min(2**i, 20))
     raise last
+
+
+def get_json(url, params):
+    return get(url, params=params).json()
 
 
 def fetch_spot():
@@ -46,20 +50,34 @@ def fetch_spot():
     return rows
 
 
+def read_archive_csv(url):
+    blob=get(url).content
+    with zipfile.ZipFile(io.BytesIO(blob)) as zf:
+        names=[n for n in zf.namelist() if n.lower().endswith('.csv')]
+        if not names: raise RuntimeError(f'no csv in {url}')
+        text=zf.read(names[0]).decode('utf-8-sig').splitlines()
+    rows=list(csv.reader(text))
+    if rows and rows[0] and not rows[0][0].replace('.','',1).isdigit():
+        rows=rows[1:]
+    return rows
+
+
 def fetch_index():
     rows=[]
-    cur=START
-    chunk_n=1500
-    while cur<END_EXCLUSIVE:
-        chunk_end=min(END_EXCLUSIVE-1, cur+chunk_n*STEP-1)
-        data=get_json(INDEX_URL, {'pair':SYMBOL,'interval':INTERVAL,'startTime':cur,'endTime':chunk_end,'limit':chunk_n})
-        if not data:
-            raise RuntimeError(f'empty index batch at {cur}')
-        rows.extend(data)
-        nxt=int(data[-1][0])+STEP
-        if nxt<=cur: raise RuntimeError('index pagination stalled')
-        cur=nxt
-        print('index', len(rows), datetime.fromtimestamp(data[-1][0]/1000,tz=timezone.utc).isoformat())
+    # Full months Jan-Aug 2026
+    for month in range(1,9):
+        ym=f'2026-{month:02d}'
+        url=f'{ARCHIVE}/monthly/indexPriceKlines/{SYMBOL}/{INTERVAL}/{SYMBOL}-{INTERVAL}-{ym}.zip'
+        part=read_archive_csv(url)
+        rows.extend(part)
+        print('index month', ym, len(part), 'total', len(rows))
+    # Partial September: Sep 1-5 daily archives
+    for day in range(1,6):
+        ymd=f'2026-09-{day:02d}'
+        url=f'{ARCHIVE}/daily/indexPriceKlines/{SYMBOL}/{INTERVAL}/{SYMBOL}-{INTERVAL}-{ymd}.zip'
+        part=read_archive_csv(url)
+        rows.extend(part)
+        print('index day', ymd, len(part), 'total', len(rows))
     return rows
 
 
@@ -76,7 +94,7 @@ def tier(bp):
 spot=fetch_spot()
 index=fetch_index()
 spot_map={int(r[0]):r for r in spot if START<=int(r[0])<END_EXCLUSIVE}
-idx_map={int(r[0]):r for r in index if START<=int(r[0])<END_EXCLUSIVE}
+idx_map={int(float(r[0])):r for r in index if START<=int(float(r[0]))<END_EXCLUSIVE}
 keys=sorted(set(spot_map)&set(idx_map))
 expected=(END_EXCLUSIVE-START)//STEP
 print('expected',expected,'spot',len(spot_map),'index',len(idx_map),'sync',len(keys))
@@ -104,7 +122,6 @@ candidates=[r for r in full if r['deviation_bp']<=-20]
 candidates.sort(key=lambda r:(r['deviation_bp'],r['open_time_ms']))
 for i,r in enumerate(candidates,1): r['rank']=i
 
-# Cluster contiguous candidate windows; sort event table by worst deviation.
 events=[]
 if candidates:
     chrono=sorted(candidates,key=lambda r:r['open_time_ms'])
