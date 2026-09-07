@@ -51,7 +51,6 @@ def fetch_index():
         ymd=f'2026-09-{day:02d}'
         url=f'{ARCHIVE}/daily/indexPriceKlines/{SYMBOL}/{INTERVAL}/{SYMBOL}-{INTERVAL}-{ymd}.zip'
         part=read_archive_csv(url); rows.extend(part); print('index day',ymd,len(part),'total',len(rows))
-    # Auto-backfill any missing 30m timestamps from daily archives.
     idx={int(float(r[0])):r for r in rows if r}
     missing=[]; t=START
     while t<END_EXCLUSIVE:
@@ -89,7 +88,7 @@ for t in keys:
     s=spot_map[t]; ix=idx_map[t]; sl=float(s[3]); il=float(ix[3]); bp=(sl/il-1)*10000
     full.append({'open_time_utc':iso(t),'open_time_ms':t,'spot_open':float(s[1]),'spot_high':float(s[2]),'spot_low':sl,'spot_close':float(s[4]),'index_open':float(ix[1]),'index_high':float(ix[2]),'index_low':il,'index_close':float(ix[4]),'deviation_bp':bp,'tier':tier(bp)})
 
-candidates=[r for r in full if r['deviation_bp']<=-20]
+candidates=[r.copy() for r in full if r['deviation_bp']<=-20]
 candidates.sort(key=lambda r:(r['deviation_bp'],r['open_time_ms']))
 for i,r in enumerate(candidates,1): r['rank']=i
 
