@@ -1,0 +1,478 @@
+{
+  "source": "OKX module=6 historical 50-level order book",
+  "filename": "BTC-USDT.OK.csv.gz",
+  "sizeMB": "356.36",
+  "rows_streamed": 936443,
+  "first_exchTimeMs": 1771113600004,
+  "last_exchTimeMs": 1771128277936,
+  "events": [
+    {
+      "name": "sweep1",
+      "t0": 1771128171025,
+      "qty": 0.14347261,
+      "binance_entry": 69699.71,
+      "capital": 10000
+    },
+    {
+      "name": "sweep2",
+      "t0": 1771128192274,
+      "qty": 0.11469564,
+      "binance_entry": 69749.82,
+      "capital": 8000
+    },
+    {
+      "name": "sweep3",
+      "t0": 1771128275429,
+      "qty": 0.0572656,
+      "binance_entry": 69849.96,
+      "capital": 4000
+    }
+  ],
+  "delays_ms": [
+    0,
+    50,
+    100,
+    250,
+    500
+  ],
+  "results": [
+    {
+      "event": "sweep1",
+      "t0_ms": 1771128171025,
+      "delay_ms": 0,
+      "arrival_ms": 1771128171025,
+      "qty_btc": 0.14347261,
+      "capital_usd": 10000,
+      "binance_entry": 69699.71,
+      "book_exchTimeMs": 1771128171016,
+      "book_age_ms": 9,
+      "best_bid": 70058.1,
+      "best_bid_qty": 0.32972331,
+      "covered": true,
+      "sell_vwap_usdt": 70058.1,
+      "gross_edge_bp": 51.41915224611493,
+      "gross_pnl": 51.41915224611493,
+      "residual_after_20bp_bp": 31.419152246114933,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70058.1,
+          "available_qty": 0.32972331,
+          "used_qty": 0.14347261
+        }
+      ]
+    },
+    {
+      "event": "sweep1",
+      "t0_ms": 1771128171025,
+      "delay_ms": 50,
+      "arrival_ms": 1771128171075,
+      "qty_btc": 0.14347261,
+      "capital_usd": 10000,
+      "binance_entry": 69699.71,
+      "book_exchTimeMs": 1771128171066,
+      "book_age_ms": 9,
+      "best_bid": 70006.0,
+      "best_bid_qty": 0.09951,
+      "covered": true,
+      "sell_vwap_usdt": 70005.75488285882,
+      "gross_edge_bp": 43.90906115087301,
+      "gross_pnl": 43.90906115087301,
+      "residual_after_20bp_bp": 23.909061150873008,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70006.0,
+          "available_qty": 0.09951,
+          "used_qty": 0.09951
+        },
+        {
+          "level": 2,
+          "price": 70005.3,
+          "available_qty": 2.492e-05,
+          "used_qty": 2.492e-05
+        },
+        {
+          "level": 3,
+          "price": 70005.2,
+          "available_qty": 0.0967,
+          "used_qty": 0.04393769
+        }
+      ]
+    },
+    {
+      "event": "sweep1",
+      "t0_ms": 1771128171025,
+      "delay_ms": 100,
+      "arrival_ms": 1771128171125,
+      "qty_btc": 0.14347261,
+      "capital_usd": 10000,
+      "binance_entry": 69699.71,
+      "book_exchTimeMs": 1771128171116,
+      "book_age_ms": 9,
+      "best_bid": 69988.1,
+      "best_bid_qty": 0.06,
+      "covered": true,
+      "sell_vwap_usdt": 69981.40928032187,
+      "gross_edge_bp": 40.41613377184117,
+      "gross_pnl": 40.41613377184117,
+      "residual_after_20bp_bp": 20.416133771841167,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 69988.1,
+          "available_qty": 0.06,
+          "used_qty": 0.06
+        },
+        {
+          "level": 2,
+          "price": 69976.6,
+          "available_qty": 0.11699796,
+          "used_qty": 0.08347261
+        }
+      ]
+    },
+    {
+      "event": "sweep1",
+      "t0_ms": 1771128171025,
+      "delay_ms": 250,
+      "arrival_ms": 1771128171275,
+      "qty_btc": 0.14347261,
+      "capital_usd": 10000,
+      "binance_entry": 69699.71,
+      "book_exchTimeMs": 1771128171266,
+      "book_age_ms": 9,
+      "best_bid": 69980.0,
+      "best_bid_qty": 0.2852489,
+      "covered": true,
+      "sell_vwap_usdt": 69980.0,
+      "gross_edge_bp": 40.21394063189021,
+      "gross_pnl": 40.21394063189021,
+      "residual_after_20bp_bp": 20.21394063189021,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 69980.0,
+          "available_qty": 0.2852489,
+          "used_qty": 0.14347261
+        }
+      ]
+    },
+    {
+      "event": "sweep1",
+      "t0_ms": 1771128171025,
+      "delay_ms": 500,
+      "arrival_ms": 1771128171525,
+      "qty_btc": 0.14347261,
+      "capital_usd": 10000,
+      "binance_entry": 69699.71,
+      "book_exchTimeMs": 1771128171516,
+      "book_age_ms": 9,
+      "best_bid": 70018.6,
+      "best_bid_qty": 0.01096316,
+      "covered": true,
+      "sell_vwap_usdt": 70008.76541705764,
+      "gross_edge_bp": 44.34099037967876,
+      "gross_pnl": 44.34099037967876,
+      "residual_after_20bp_bp": 24.340990379678757,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70018.6,
+          "available_qty": 0.01096316,
+          "used_qty": 0.01096316
+        },
+        {
+          "level": 2,
+          "price": 70010.3,
+          "available_qty": 0.00285743,
+          "used_qty": 0.00285743
+        },
+        {
+          "level": 3,
+          "price": 70007.9,
+          "available_qty": 0.15969,
+          "used_qty": 0.12965202
+        }
+      ]
+    },
+    {
+      "event": "sweep2",
+      "t0_ms": 1771128192274,
+      "delay_ms": 0,
+      "arrival_ms": 1771128192274,
+      "qty_btc": 0.11469564,
+      "capital_usd": 8000,
+      "binance_entry": 69749.82,
+      "book_exchTimeMs": 1771128192266,
+      "book_age_ms": 8,
+      "best_bid": 70135.3,
+      "best_bid_qty": 0.51952498,
+      "covered": true,
+      "sell_vwap_usdt": 70135.3,
+      "gross_edge_bp": 55.26609244296266,
+      "gross_pnl": 44.21287395437013,
+      "residual_after_20bp_bp": 35.26609244296266,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70135.3,
+          "available_qty": 0.51952498,
+          "used_qty": 0.11469564
+        }
+      ]
+    },
+    {
+      "event": "sweep2",
+      "t0_ms": 1771128192274,
+      "delay_ms": 50,
+      "arrival_ms": 1771128192324,
+      "qty_btc": 0.11469564,
+      "capital_usd": 8000,
+      "binance_entry": 69749.82,
+      "book_exchTimeMs": 1771128192316,
+      "book_age_ms": 8,
+      "best_bid": 70071.5,
+      "best_bid_qty": 0.0872,
+      "covered": true,
+      "sell_vwap_usdt": 70071.47602730147,
+      "gross_edge_bp": 46.115678477947064,
+      "gross_pnl": 36.89254278235765,
+      "residual_after_20bp_bp": 26.115678477947064,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70071.5,
+          "available_qty": 0.0872,
+          "used_qty": 0.0872
+        },
+        {
+          "level": 2,
+          "price": 70071.4,
+          "available_qty": 0.04788134,
+          "used_qty": 0.027495640000000002
+        }
+      ]
+    },
+    {
+      "event": "sweep2",
+      "t0_ms": 1771128192274,
+      "delay_ms": 100,
+      "arrival_ms": 1771128192374,
+      "qty_btc": 0.11469564,
+      "capital_usd": 8000,
+      "binance_entry": 69749.82,
+      "book_exchTimeMs": 1771128192366,
+      "book_age_ms": 8,
+      "best_bid": 70075.9,
+      "best_bid_qty": 0.2842328,
+      "covered": true,
+      "sell_vwap_usdt": 70075.9,
+      "gross_edge_bp": 46.74994143353928,
+      "gross_pnl": 37.39995314683142,
+      "residual_after_20bp_bp": 26.749941433539277,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70075.9,
+          "available_qty": 0.2842328,
+          "used_qty": 0.11469564
+        }
+      ]
+    },
+    {
+      "event": "sweep2",
+      "t0_ms": 1771128192274,
+      "delay_ms": 250,
+      "arrival_ms": 1771128192524,
+      "qty_btc": 0.11469564,
+      "capital_usd": 8000,
+      "binance_entry": 69749.82,
+      "book_exchTimeMs": 1771128192516,
+      "book_age_ms": 8,
+      "best_bid": 70096.7,
+      "best_bid_qty": 0.14156013,
+      "covered": true,
+      "sell_vwap_usdt": 70096.7,
+      "gross_edge_bp": 49.73202798229215,
+      "gross_pnl": 39.78562238583372,
+      "residual_after_20bp_bp": 29.732027982292152,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70096.7,
+          "available_qty": 0.14156013,
+          "used_qty": 0.11469564
+        }
+      ]
+    },
+    {
+      "event": "sweep2",
+      "t0_ms": 1771128192274,
+      "delay_ms": 500,
+      "arrival_ms": 1771128192774,
+      "qty_btc": 0.11469564,
+      "capital_usd": 8000,
+      "binance_entry": 69749.82,
+      "book_exchTimeMs": 1771128192766,
+      "book_age_ms": 8,
+      "best_bid": 70091.2,
+      "best_bid_qty": 0.37810642,
+      "covered": true,
+      "sell_vwap_usdt": 70091.2,
+      "gross_edge_bp": 48.94349548142163,
+      "gross_pnl": 39.1547963851373,
+      "residual_after_20bp_bp": 28.94349548142163,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70091.2,
+          "available_qty": 0.37810642,
+          "used_qty": 0.11469564
+        }
+      ]
+    },
+    {
+      "event": "sweep3",
+      "t0_ms": 1771128275429,
+      "delay_ms": 0,
+      "arrival_ms": 1771128275429,
+      "qty_btc": 0.0572656,
+      "capital_usd": 4000,
+      "binance_entry": 69849.96,
+      "book_exchTimeMs": 1771128275426,
+      "book_age_ms": 3,
+      "best_bid": 70005.4,
+      "best_bid_qty": 0.29663348,
+      "covered": true,
+      "sell_vwap_usdt": 70005.4,
+      "gross_edge_bp": 22.253412886705792,
+      "gross_pnl": 8.901365154682317,
+      "residual_after_20bp_bp": 2.2534128867057923,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 70005.4,
+          "available_qty": 0.29663348,
+          "used_qty": 0.0572656
+        }
+      ]
+    },
+    {
+      "event": "sweep3",
+      "t0_ms": 1771128275429,
+      "delay_ms": 50,
+      "arrival_ms": 1771128275479,
+      "qty_btc": 0.0572656,
+      "capital_usd": 4000,
+      "binance_entry": 69849.96,
+      "book_exchTimeMs": 1771128275476,
+      "book_age_ms": 3,
+      "best_bid": 69975.0,
+      "best_bid_qty": 0.03669998,
+      "covered": true,
+      "sell_vwap_usdt": 69974.65020101074,
+      "gross_edge_bp": 17.85114852044689,
+      "gross_pnl": 7.1404594081787565,
+      "residual_after_20bp_bp": -2.148851479553109,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 69975.0,
+          "available_qty": 0.03669998,
+          "used_qty": 0.03669998
+        },
+        {
+          "level": 2,
+          "price": 69974.3,
+          "available_qty": 0.00178057,
+          "used_qty": 0.00178057
+        },
+        {
+          "level": 3,
+          "price": 69974.0,
+          "available_qty": 0.0408,
+          "used_qty": 0.01878505
+        }
+      ]
+    },
+    {
+      "event": "sweep3",
+      "t0_ms": 1771128275429,
+      "delay_ms": 100,
+      "arrival_ms": 1771128275529,
+      "qty_btc": 0.0572656,
+      "capital_usd": 4000,
+      "binance_entry": 69849.96,
+      "book_exchTimeMs": 1771128275526,
+      "book_age_ms": 3,
+      "best_bid": 69984.3,
+      "best_bid_qty": 0.085582,
+      "covered": true,
+      "sell_vwap_usdt": 69984.3,
+      "gross_edge_bp": 19.23265238806149,
+      "gross_pnl": 7.693060955224595,
+      "residual_after_20bp_bp": -0.7673476119385114,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 69984.3,
+          "available_qty": 0.085582,
+          "used_qty": 0.0572656
+        }
+      ]
+    },
+    {
+      "event": "sweep3",
+      "t0_ms": 1771128275429,
+      "delay_ms": 250,
+      "arrival_ms": 1771128275679,
+      "qty_btc": 0.0572656,
+      "capital_usd": 4000,
+      "binance_entry": 69849.96,
+      "book_exchTimeMs": 1771128275676,
+      "book_age_ms": 3,
+      "best_bid": 69992.2,
+      "best_bid_qty": 0.15606985,
+      "covered": true,
+      "sell_vwap_usdt": 69992.2,
+      "gross_edge_bp": 20.363648024994685,
+      "gross_pnl": 8.145459209997874,
+      "residual_after_20bp_bp": 0.36364802499468496,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 69992.2,
+          "available_qty": 0.15606985,
+          "used_qty": 0.0572656
+        }
+      ]
+    },
+    {
+      "event": "sweep3",
+      "t0_ms": 1771128275429,
+      "delay_ms": 500,
+      "arrival_ms": 1771128275929,
+      "qty_btc": 0.0572656,
+      "capital_usd": 4000,
+      "binance_entry": 69849.96,
+      "book_exchTimeMs": 1771128275926,
+      "book_age_ms": 3,
+      "best_bid": 69985.0,
+      "best_bid_qty": 0.64510901,
+      "covered": true,
+      "sell_vwap_usdt": 69985.0,
+      "gross_edge_bp": 19.33286719133287,
+      "gross_pnl": 7.733146876533148,
+      "residual_after_20bp_bp": -0.6671328086671302,
+      "levels_used": [
+        {
+          "level": 1,
+          "price": 69985.0,
+          "available_qty": 0.64510901,
+          "used_qty": 0.0572656
+        }
+      ]
+    }
+  ]
+}
