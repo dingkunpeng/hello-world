@@ -1,4 +1,4 @@
-name: Run BTC 2026 30m scan
+name: Run BTC candidate validation
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
     paths:
       - 'scan_btc_30m.py'
       - 'inspect_okx_candidate005.py'
+      - 'inspect_okx_tbt_candidate005.py'
       - '.github/workflows/run-btc-scan.yml'
 
 permissions:
@@ -21,19 +22,17 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install requests
-      - name: Run full scan
-        run: python scan_btc_30m.py
-      - name: Inspect OKX Candidate 005 archive
-        run: python inspect_okx_candidate005.py
+      - name: Inspect OKX tick-by-tick Candidate 005
+        run: python inspect_okx_tbt_candidate005.py
       - name: Commit results
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output/
-          git commit -m 'Update BTC scan and Candidate 005 OKX results' || exit 0
+          git add output/candidate005_okx_tbt/
+          git commit -m 'Add Candidate 005 OKX tick-by-tick evidence' || exit 0
           git push
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: btc-2026-30m-scan
-          path: output/
+          name: candidate005-okx-tbt
+          path: output/candidate005_okx_tbt/
