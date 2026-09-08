@@ -1,0 +1,46 @@
+{
+  "cost_bp": 32.5,
+  "by_event": {
+    "2026-02-03": {
+      "event": "2026-02-03",
+      "t0_ms": 1770143385276,
+      "binance_low": 73801.8,
+      "okx_pre_book_ms": 1770143385268,
+      "okx_pre_best_bid": 74143.0,
+      "filled_layers": 1,
+      "capital_usd": 2000,
+      "qty_btc": 0.027083232786831613,
+      "binance_entry": 73846.428,
+      "delay_ms": 100,
+      "okx_book_ms": 1770143385368,
+      "book_age_ms": 8,
+      "sell_vwap": 74104.8,
+      "covered_qty": 0.027083232786831613,
+      "gross_edge_bp": 34.987745107997185,
+      "net_after_32_5bp": 2.487745107997185,
+      "net_pnl_usd": 0.4975490215994369,
+      "ladder_json": "[{\"offset_bp\":40,\"limit_px\":73846.428,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":73698.14199999999,\"filled_price_through\":false},{\"offset_bp\":80,\"limit_px\":73549.856,\"filled_price_through\":false},{\"offset_bp\":100,\"limit_px\":73401.56999999999,\"filled_price_through\":false},{\"offset_bp\":120,\"limit_px\":73253.284,\"filled_price_through\":false}]"
+    },
+    "2026-04-02": {
+      "event": "2026-04-02",
+      "t0_ms": 1775120393787,
+      "binance_low": 66180.0,
+      "okx_pre_book_ms": 1775120393772,
+      "okx_pre_best_bid": 66477.9,
+      "filled_layers": 1,
+      "capital_usd": 2000,
+      "qty_btc": 0.030206010245721608,
+      "binance_entry": 66211.98839999999,
+      "delay_ms": 100,
+      "okx_book_ms": 1775120393882,
+      "book_age_ms": 5,
+      "sell_vwap": 66424.5,
+      "covered_qty": 0.030206010245721608,
+      "gross_edge_bp": 32.09563783467484,
+      "net_after_32_5bp": -0.40436216532516056,
+      "net_pnl_usd": -0.08087243306503211,
+      "ladder_json": "[{\"offset_bp\":40,\"limit_px\":66211.98839999999,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":66079.03259999999,\"filled_price_through\":false},{\"offset_bp\":80,\"limit_px\":65946.0768,\"filled_price_through\":false},{\"offset_bp\":100,\"limit_px\":65813.121,\"filled_price_through\":false},{\"offset_bp\":120,\"limit_px\":65680.16519999999,\"filled_price_through\":false}]"
+    }
+  },
+  "total_net_pnl_100ms": 0.4166765885344048
+}
