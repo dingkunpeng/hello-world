@@ -1,0 +1,69 @@
+{
+  "date": "2026-01-12",
+  "policy": "STRICT EX-ANTE stale-minute peg: every minute ladder is armed from previous completed Binance index close only; static for 60s; strict Binance seller-aggressor price-through; each tier max once/minute; +100ms OKX 50-level hedge; 32.5bp all-in cost.",
+  "trigger_minutes_prefiltered_no_oracle_for_arming": [
+    "2026-01-12 17:32:00"
+  ],
+  "prefilter_note": "Current-minute 1m low is used only offline to skip minutes where an already-armed static order mathematically could not fill; it does not choose anchor, eligibility, or tier prices.",
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-01-12.zip",
+  "okx_file": {
+    "filename": "BTC-USDT.OK.csv.gz",
+    "sizeMB": "274.69"
+  },
+  "seller_aggressor_trades_in_trigger_minutes": 4812,
+  "fills": [
+    {
+      "date": "2026-01-12",
+      "minute_utc": "2026-01-12 17:32:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1768239171833,
+      "fill_t_utc": "2026-01-12T17:32:51.833000+00:00",
+      "binance_trade_px": 91159.4,
+      "binance_trade_qty": 7e-05,
+      "static_anchor_prev_index_close": 91525.53152174,
+      "entry_limit_px": 91159.42,
+      "qty_btc": 0.02193958671522921,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1768239171933
+    }
+  ],
+  "hedge_groups": [
+    {
+      "arrival_ms": 1768239171933,
+      "arrival_utc": "2026-01-12T17:32:51.933000+00:00",
+      "okx_book_ms": 1768239171927,
+      "book_age_ms": 6,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02193958671522921,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 91160.0,
+      "covered_qty": 0.02193958671522921,
+      "gross_edge_bp": 0.06362480147403815,
+      "net_after_32_5bp": -32.436375198525965,
+      "net_pnl_usd": -6.487275039705193,
+      "fill_refs": [
+        {
+          "minute_utc": "2026-01-12 17:32:00",
+          "tier_bp": 40,
+          "fill_t_ms": 1768239171833,
+          "entry_limit_px": 91159.42
+        }
+      ]
+    }
+  ],
+  "fill_count": 1,
+  "hedge_group_count": 1,
+  "total_capital_traded_usd": 2000.0,
+  "total_net_pnl_usd": -6.487275039705193,
+  "positive_hedges": 0,
+  "negative_hedges": 1,
+  "uncovered_hedges": 0,
+  "qa": {
+    "duplicate_minute_tier_fills": 0,
+    "max_hedge_book_age_ms": 6,
+    "tie_convention": "same-ms OKX update is usable; otherwise latest strictly prior book"
+  }
+}
