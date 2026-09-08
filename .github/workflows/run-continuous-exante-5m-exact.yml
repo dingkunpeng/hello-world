@@ -51,3 +51,4 @@ jobs:
           git commit -m 'Add strict 5m ex-ante exact replay results' || true
           git pull --rebase || true
           git push
+# rerun requested 2026-09-08
