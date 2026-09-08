@@ -38,16 +38,19 @@ def signed_file(t0):
     begin,end=day_bounds(t0)
     params={'module':'6','instType':'SPOT','dateAggrType':'daily','begin':str(begin),'end':str(end),'instIdList':'BTC-USDT'}
     r=requests.get(API,params=params,timeout=30); r.raise_for_status(); js=r.json()
-    details=js['data'][0]['details'][0]['groupDetails']
-    item=next(x for x in details if x['filename']=='BTC-USDT.OK.csv.gz')
-    return item
+    groups=[]
+    for detail in js['data'][0]['details']:
+        groups.extend(detail.get('groupDetails',[]))
+    exact=[x for x in groups if x.get('filename')=='BTC-USDT.OK.csv.gz' and str(x.get('dateTs'))==str(begin)]
+    if not exact:
+        raise RuntimeError(f'No exact OKX module6 file for {begin}; sample={[(x.get("dateTs"),x.get("filename")) for x in groups[:10]]}')
+    return exact[0]
 
 all_results=[]
 for ev in EVENTS:
     item=signed_file(ev['t0'])
-    print('EVENT',ev['name'],'file',item['sizeMB'],'MB')
+    print('EVENT',ev['name'],'dateTs',item.get('dateTs'),'file',item['sizeMB'],'MB')
     arrivals=[ev['t0']+d for d in DELAYS]
-    needed=set(arrivals)
     snaps={}
     prev=None; prev_ts=None
     resp=requests.get(item['url'],stream=True,timeout=120); resp.raise_for_status(); resp.raw.decode_content=False
@@ -61,14 +64,12 @@ for ev in EVENTS:
                     snaps[arr]=(prev_ts,prev.copy() if prev else None)
             prev=row; prev_ts=ts
             if len(snaps)==len(arrivals) and ts>max(arrivals)+50: break
-    # pre-event book for ladder anchor = latest book <= t0
-    pre_ts,pre=snaps[ev['t0']]
-    if pre is None: raise RuntimeError('no pre book '+ev['name'])
+    pre_ts,pre=snaps.get(ev['t0'],(None,None))
+    if pre is None: raise RuntimeError(f'no pre book {ev["name"]}; first/last processed prev_ts={prev_ts}')
     fair=float(pre['bid_1_px'])
     ladder=[]
     for off in LADDER_OFFSETS_BP:
         px=fair*(1-off/10000)
-        # strict price-through only; touching low is not counted as guaranteed fill
         filled=ev['binance_low'] < px
         ladder.append({'offset_bp':off,'limit_px':px,'filled_price_through':filled})
     filled=[x for x in ladder if x['filled_price_through']]
