@@ -1,0 +1,25 @@
+name: Run continuous ex-ante baseline
+on:
+  push:
+    paths:
+      - 'continuous_exante_minute_baseline.py'
+      - '.github/workflows/run-continuous-exante-baseline.yml'
+  workflow_dispatch:
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Run continuous ex-ante baseline
+        run: python continuous_exante_minute_baseline.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/continuous_exante
+          git commit -m "Add continuous ex-ante baseline results" || exit 0
+          git push
