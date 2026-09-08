@@ -57,7 +57,7 @@ for ev in events:
         t+=60_000
     if not mins: continue
     worst=min(mins,key=lambda x:x[0])
-    bp,t,sl,il,so,sc,io,ic=worst
+    bp,t,sl,il,spot_open,spot_close,index_open,index_close=worst
     layers=sum(1 for x in LADDER_BPS if bp<=x)
     out.append({
         'event_rank_30m':ev['event_rank'],'start_30m_utc':ev['start_utc'],
