@@ -1,0 +1,53 @@
+name: Run strict 5m ex-ante exact replay
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'exact_continuous_exante_5m_day.py'
+      - 'aggregate_continuous_exante_5m_exact.py'
+      - '.github/workflows/run-continuous-exante-5m-exact.yml'
+jobs:
+  shard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      max-parallel: 32
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Exact 5m replay shard
+        run: python exact_continuous_exante_5m_day.py --shard ${{ matrix.shard }} --shards 32
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: output/continuous_exante_5m_exact
+          retention-days: 1
+  aggregate:
+    needs: shard
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          path: output/continuous_exante_5m_exact
+          merge-multiple: true
+      - run: python aggregate_continuous_exante_5m_exact.py
+      - name: Commit 5m exact results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/continuous_exante_5m_exact
+          git commit -m 'Add strict 5m ex-ante exact replay results' || true
+          git pull --rebase || true
+          git push
