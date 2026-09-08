@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import csv, io, json, zipfile, requests, time
 from pathlib import Path
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 
 START = datetime(2026,1,1,tzinfo=timezone.utc)
 END_EXCL = datetime(2026,9,6,tzinfo=timezone.utc)
@@ -46,7 +46,7 @@ def add_rows(dst, rows):
         if r:
             dst[norm_ms(r[0])] = r
 
-def load_all(month_tmpl, day_tmpl):
+def load_primary(month_tmpl, day_tmpl):
     d={}
     for m in range(1,9):
         ym=f'2026-{m:02d}'
@@ -63,11 +63,34 @@ def load_all(month_tmpl, day_tmpl):
 def iso(ms):
     return datetime.fromtimestamp(ms/1000,tz=timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
 
-spot = load_all(SPOT_MONTH, SPOT_DAY)
-idx = load_all(INDEX_MONTH, INDEX_DAY)
+def missing_dates(d, start_ms, end_ms):
+    miss=set(); t=start_ms
+    while t<end_ms:
+        if t not in d:
+            miss.add(iso(t)[:10])
+        t+=60_000
+    return sorted(miss)
+
+def backfill_missing(d, day_tmpl, start_ms, end_ms, label):
+    dates=missing_dates(d,start_ms,end_ms)
+    for ymd in dates:
+        url=day_tmpl.format(ymd=ymd)
+        print('backfill',label,ymd,url)
+        add_rows(d, rows_from_zip(url))
+    remain=missing_dates(d,start_ms,end_ms)
+    if remain:
+        raise RuntimeError(f'{label} still missing dates after daily backfill: {remain[:20]}')
+    return dates
+
 start_ms=int(START.timestamp()*1000); end_ms=int(END_EXCL.timestamp()*1000)
 minute_ms=60_000
 expected=(end_ms-start_ms)//minute_ms
+
+spot = load_primary(SPOT_MONTH, SPOT_DAY)
+idx = load_primary(INDEX_MONTH, INDEX_DAY)
+spot_backfilled=backfill_missing(spot,SPOT_DAY,start_ms,end_ms,'spot')
+index_backfilled=backfill_missing(idx,INDEX_DAY,start_ms,end_ms,'index')
+
 keys=[]; t=start_ms
 while t<end_ms:
     if t not in spot or t not in idx:
@@ -80,7 +103,7 @@ all_minutes=0
 for i,t in enumerate(keys):
     if i==0: continue
     prev=keys[i-1]
-    # strictly ex-ante anchor: previous completed Binance Index close only.
+    # STRICT EX-ANTE RULE: only the previous completed minute is available when orders are armed.
     anchor=float(idx[prev][4])
     prev_spot_close=float(spot[prev][4])
     prev_index_close=anchor
@@ -98,7 +121,7 @@ for i,t in enumerate(keys):
     cap=LAYER_USD*len(filled)
     qty=sum(LAYER_USD/x['limit_px'] for x in filled)
     entry=cap/qty
-    # proxy diagnostics only; never used for order eligibility.
+    # Outcome diagnostics ONLY. These fields never decide whether the order was armed.
     proxy_low_edge=(cur_idx_low/entry-1)*10000
     proxy_close_edge=(cur_idx_close/entry-1)*10000
     triggers.append({
@@ -119,7 +142,6 @@ with (OUT/'minute_triggers.csv').open('w',newline='',encoding='utf-8-sig') as f:
     if fields:
         w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(triggers)
 
-# group consecutive trigger minutes as clusters, for workload and event-frequency diagnostics only.
 clusters=[]
 if triggers:
     cur=[triggers[0]]
@@ -144,12 +166,12 @@ if cluster_rows:
     with (OUT/'trigger_clusters.csv').open('w',newline='',encoding='utf-8-sig') as f:
         w=csv.DictWriter(f,fieldnames=list(cluster_rows[0].keys())); w.writeheader(); w.writerows(cluster_rows)
 
-# descriptive buckets based solely on pre-known state; useful for later train/test filters, not applied to baseline.
 def cnt(pred): return sum(1 for r in triggers if pred(r))
 summary={
     'period_utc':'2026-01-01 through 2026-09-05 inclusive',
     'expected_minutes':expected,
     'evaluated_minutes':all_minutes,
+    'data_backfill':{'spot_daily_backfill_dates':spot_backfilled,'index_daily_backfill_dates':index_backfilled},
     'lookahead_policy':'Anchor and arming use only previous completed minute Binance Index close. Candidate labels and current/future index/OKX values are forbidden for eligibility.',
     'baseline_policy':'Always armed; refresh ladder every minute; -40/-60/-80/-100/-120bp, $2k each; strict current-minute price-through is only a fill-candidate detector.',
     'trigger_minutes':len(triggers),
