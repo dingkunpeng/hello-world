@@ -1,0 +1,25 @@
+name: Run promoted residual Level-A replay
+on:
+  push:
+    paths:
+      - 'validate_promoted_residual_l2.py'
+      - '.github/workflows/run-promoted-residual-l2.yml'
+permissions:
+  contents: write
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python validate_promoted_residual_l2.py
+      - name: Commit results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/annual_ev/promoted_residual_l2
+          git diff --cached --quiet || git commit -m 'Add promoted residual Level-A results'
+          git push
