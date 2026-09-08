@@ -1,0 +1,27 @@
+name: run-continuous-exante-5m-fast
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'continuous_exante_5m_fast.py'
+      - '.github/workflows/run-continuous-exante-5m-fast.yml'
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python continuous_exante_5m_fast.py
+      - name: Commit fast 5m results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/continuous_exante_5m_fast
+          git commit -m 'Add fast 5m ex-ante results' || true
+          git pull --rebase || true
+          git push
