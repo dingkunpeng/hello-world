@@ -1,0 +1,36 @@
+name: Run Candidate 005 Kraken Coinbase matrix
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'candidate005_crossvenue_trade_matrix.py'
+      - '.github/workflows/run-crossvenue.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Build Kraken and Coinbase matrix
+        run: python candidate005_crossvenue_trade_matrix.py
+      - name: Commit matrix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add output/candidate005_crossvenue/
+          git commit -m 'Update Candidate 005 Kraken Coinbase matrix' || exit 0
+          git push
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate005-kraken-coinbase
+          path: output/candidate005_crossvenue/
