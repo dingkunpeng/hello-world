@@ -1,0 +1,26 @@
+name: Run standardized 2026-07-20 replay
+on:
+  push:
+    paths:
+      - 'validate_20260720_standardized.py'
+      - '.github/workflows/run-20260720-standardized.yml'
+permissions:
+  contents: write
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Run standardized replay
+        run: python validate_20260720_standardized.py
+      - name: Commit results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/annual_ev/2026-07-20
+          git diff --cached --quiet || git commit -m 'Add standardized 2026-07-20 annual replay results'
+          git push
