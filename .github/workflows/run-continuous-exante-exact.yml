@@ -1,0 +1,47 @@
+name: Run strict ex-ante exact replay
+on:
+  push:
+    paths:
+      - 'exact_continuous_exante_day.py'
+      - 'aggregate_continuous_exante_exact.py'
+      - '.github/workflows/run-continuous-exante-exact.yml'
+permissions:
+  contents: write
+jobs:
+  shard:
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Exact replay shard
+        run: python exact_continuous_exante_day.py --shard ${{ matrix.shard }} --shards 16
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exante-shard-${{ matrix.shard }}
+          path: output/continuous_exante_exact
+          retention-days: 1
+  aggregate:
+    needs: shard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: exante-shard-*
+          path: output/continuous_exante_exact
+          merge-multiple: true
+      - run: python aggregate_continuous_exante_exact.py
+      - name: Commit exact ex-ante results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/continuous_exante_exact
+          git diff --cached --quiet || git commit -m 'Add strict ex-ante exact replay results'
+          git push
