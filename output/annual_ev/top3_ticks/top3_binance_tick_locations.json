@@ -2,37 +2,40 @@
   {
     "event": "2026-02-07",
     "minute_utc": "2026-02-07 07:46:00",
-    "aggtrade_count": 11306,
-    "low": 67322.03,
-    "first_low_ms": 1770450371407,
-    "first_low_utc": "2026-02-07T07:46:11.407000+00:00",
-    "low_trade_qty": 0.00295,
-    "low_trade_count": 3,
-    "seller_aggressor_low_qty": 0,
-    "near_low_first_ms": 1770450371407
+    "aggtrade_count": 13965,
+    "low": 67300.0,
+    "first_low_ms": 1770450371402,
+    "first_low_utc": "2026-02-07T07:46:11.402000+00:00",
+    "low_trade_qty": 1.7227999999999999,
+    "low_trade_count": 16,
+    "seller_aggressor_low_qty": 1.7227999999999999,
+    "near_low_first_ms": 1770450371402,
+    "source": "Binance official daily aggTrades archive"
   },
   {
     "event": "2026-07-10",
     "minute_utc": "2026-07-10 12:14:00",
-    "aggtrade_count": 5039,
-    "low": 64000.0,
-    "first_low_ms": 1783685656327,
-    "first_low_utc": "2026-07-10T12:14:16.327000+00:00",
-    "low_trade_qty": 2.20655,
-    "low_trade_count": 2,
-    "seller_aggressor_low_qty": 0,
-    "near_low_first_ms": 1783685656327
+    "aggtrade_count": 7208,
+    "low": 63999.0,
+    "first_low_ms": 1783685656306,
+    "first_low_utc": "2026-07-10T12:14:16.306000+00:00",
+    "low_trade_qty": 0.95983,
+    "low_trade_count": 21,
+    "seller_aggressor_low_qty": 0.95983,
+    "near_low_first_ms": 1783685656306,
+    "source": "Binance official daily aggTrades archive"
   },
   {
     "event": "2026-08-22",
     "minute_utc": "2026-08-22 05:10:00",
-    "aggtrade_count": 24588,
+    "aggtrade_count": 24896,
     "low": 76618.7,
     "first_low_ms": 1787375457287,
     "first_low_utc": "2026-08-22T05:10:57.287000+00:00",
     "low_trade_qty": 0.45006999999999997,
     "low_trade_count": 47,
     "seller_aggressor_low_qty": 0.45006999999999997,
-    "near_low_first_ms": 1787375457285
+    "near_low_first_ms": 1787375457285,
+    "source": "Binance official daily aggTrades archive"
   }
 ]
