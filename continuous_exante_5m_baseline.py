@@ -32,7 +32,6 @@ def get_zip_csv(url):
         p=ln.split(',')
         try: ot=int(float(p[0]))
         except: continue
-        # timestamps may be microseconds in spot archives from 2025 onward
         if ot>10**14: ot//=1000
         rows.append((ot,float(p[1]),float(p[2]),float(p[3]),float(p[4])))
     return rows
@@ -45,20 +44,18 @@ def daterange(a,b):
 all_rows=[]
 trigger_days=set()
 prev_index_close=None
-prev_time=None
 for ds in daterange(START,END):
     spot=get_zip_csv(SPOT_DAY.format(date=ds))
     idx=get_zip_csv(IDX_DAY.format(date=ds))
-    im={r[0]:r for r in idx}
+    idx_map={r[0]:r for r in idx}
     for s in spot:
-        t,so,sh,sl,sc=s
-        ir=im.get(t)
-        if ir is None: continue
-        io,ih,il,ic=ir[1:]
+        t,spot_open,spot_high,spot_low,spot_close=s
+        idx_row=idx_map.get(t)
+        if idx_row is None: continue
+        index_open,index_high,index_low,index_close=idx_row[1:]
         if prev_index_close is not None:
             prices=[prev_index_close*(1-bp/10000) for bp in TIERS_BP]
-            # cheap high-recall prefilter: current 5m spot low strictly below tier
-            hit_layers=sum(sl<p for p in prices)
+            hit_layers=sum(spot_low<p for p in prices)
             if hit_layers>0:
                 trigger_days.add(ds)
                 all_rows.append({
@@ -66,13 +63,12 @@ for ds in daterange(START,END):
                     'bar_open_utc':datetime.fromtimestamp(t/1000,tz=timezone.utc).isoformat(),
                     'date':ds,
                     'prev_completed_5m_index_close':prev_index_close,
-                    'spot_5m_low':sl,
+                    'spot_5m_low':spot_low,
                     'potential_layers':hit_layers,
                     'potential_capital_usd':hit_layers*CAPITAL_PER_TIER,
                     'tier_prices':'|'.join(f'{p:.8f}' for p in prices),
                 })
-        prev_index_close=ic
-        prev_time=t
+        prev_index_close=index_close
 
 with open(OUT/'potential_trigger_bars.csv','w',newline='',encoding='utf-8-sig') as f:
     fields=list(all_rows[0].keys()) if all_rows else ['bar_open_ms']
