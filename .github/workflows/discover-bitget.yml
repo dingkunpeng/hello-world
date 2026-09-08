@@ -1,0 +1,30 @@
+name: Discover Bitget historical archive
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'discover_bitget_archive.py'
+      - '.github/workflows/discover-bitget.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Discover Bitget archive endpoint
+        run: python discover_bitget_archive.py
+      - name: Commit discovery result
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add output/bitget_discovery/
+          git commit -m 'Add Bitget archive discovery result' || exit 0
+          git push
