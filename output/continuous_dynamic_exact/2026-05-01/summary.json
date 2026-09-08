@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-01",
+  "policy": "ideal continuous peg to latest OKX bid; five tiers -40/-60/-80/-100/-120bp; $2k each; strict seller-aggressor price-through; each tier max once per minute; +100ms OKX hedge; 32.5bp all-in cost",
+  "trigger_minutes_screened": [
+    "2026-05-01 04:29:00"
+  ],
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-05-01.zip",
+  "okx_file": {
+    "filename": "BTC-USDT.OK.csv.gz",
+    "sizeMB": "195.02"
+  },
+  "seller_aggressor_trades_in_minutes": 2934,
+  "fills": [
+    {
+      "date": "2026-05-01",
+      "minute_utc": "2026-05-01 04:29:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1777609759442,
+      "fill_t_utc": "2026-05-01T04:29:19.442000+00:00",
+      "binance_trade_px": 76691.88,
+      "binance_trade_qty": 0.00011,
+      "okx_anchor_book_ms": 1777609759438,
+      "anchor_age_ms": 4,
+      "okx_best_bid_anchor": 76999.9,
+      "entry_limit_px": 76691.90000000001,
+      "qty_btc": 0.02607837333538483,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1777609759542
+    }
+  ],
+  "hedge_groups": [
+    {
+      "arrival_ms": 1777609759542,
+      "arrival_utc": "2026-05-01T04:29:19.542000+00:00",
+      "okx_book_ms": 1777609759538,
+      "book_age_ms": 4,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02607837333538483,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 76963.2,
+      "covered_qty": 0.02607837333538483,
+      "gross_edge_bp": 35.375313429448774,
+      "net_after_32_5bp": 2.8753134294487737,
+      "net_pnl_usd": 0.5750626858897547,
+      "fill_refs": [
+        {
+          "minute_utc": "2026-05-01 04:29:00",
+          "tier_bp": 40,
+          "fill_t_ms": 1777609759442,
+          "entry_limit_px": 76691.90000000001
+        }
+      ]
+    }
+  ],
+  "fill_count": 1,
+  "hedge_group_count": 1,
+  "total_capital_traded_usd": 2000.0,
+  "total_net_pnl_usd": 0.5750626858897547,
+  "qa": {
+    "duplicate_minute_tier_fills": 0,
+    "max_anchor_book_age_ms": 4,
+    "max_hedge_book_age_ms": 4,
+    "tie_convention": "If OKX book update and Binance trade share exact ms, use the same-ms OKX book; otherwise latest strictly prior book."
+  }
+}

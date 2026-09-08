@@ -1,0 +1,91 @@
+{
+  "date": "2026-04-29",
+  "policy": "ideal continuous peg to latest OKX bid; five tiers -40/-60/-80/-100/-120bp; $2k each; strict seller-aggressor price-through; each tier max once per minute; +100ms OKX hedge; 32.5bp all-in cost",
+  "trigger_minutes_screened": [
+    "2026-04-29 12:14:00"
+  ],
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-04-29.zip",
+  "okx_file": {
+    "filename": "BTC-USDT.OK.csv.gz",
+    "sizeMB": "203.4"
+  },
+  "seller_aggressor_trades_in_minutes": 8260,
+  "fills": [
+    {
+      "date": "2026-04-29",
+      "minute_utc": "2026-04-29 12:14:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1777464898797,
+      "fill_t_utc": "2026-04-29T12:14:58.797000+00:00",
+      "binance_trade_px": 77068.57,
+      "binance_trade_qty": 7e-05,
+      "okx_anchor_book_ms": 1777464898764,
+      "anchor_age_ms": 33,
+      "okx_best_bid_anchor": 77378.2,
+      "entry_limit_px": 77068.68000000001,
+      "qty_btc": 0.025950879137932554,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1777464898897
+    },
+    {
+      "date": "2026-04-29",
+      "minute_utc": "2026-04-29 12:14:00",
+      "tier_bp": 60,
+      "fill_t_ms": 1777464898797,
+      "fill_t_utc": "2026-04-29T12:14:58.797000+00:00",
+      "binance_trade_px": 76913.79,
+      "binance_trade_qty": 8e-05,
+      "okx_anchor_book_ms": 1777464898764,
+      "anchor_age_ms": 33,
+      "okx_best_bid_anchor": 77378.2,
+      "entry_limit_px": 76913.93000000001,
+      "qty_btc": 0.026003092027673008,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1777464898897
+    }
+  ],
+  "hedge_groups": [
+    {
+      "arrival_ms": 1777464898897,
+      "arrival_utc": "2026-04-29T12:14:58.897000+00:00",
+      "okx_book_ms": 1777464898894,
+      "book_age_ms": 3,
+      "fills": 2,
+      "tiers_bp": [
+        40,
+        60
+      ],
+      "qty_btc": 0.05195397116560556,
+      "capital_usd": 4000.0,
+      "sell_vwap_usdt": 77331.0,
+      "covered_qty": 0.05195397116560556,
+      "gross_edge_bp": 44.131360518608886,
+      "net_after_32_5bp": 11.631360518608886,
+      "net_pnl_usd": 4.652544207443555,
+      "fill_refs": [
+        {
+          "minute_utc": "2026-04-29 12:14:00",
+          "tier_bp": 40,
+          "fill_t_ms": 1777464898797,
+          "entry_limit_px": 77068.68000000001
+        },
+        {
+          "minute_utc": "2026-04-29 12:14:00",
+          "tier_bp": 60,
+          "fill_t_ms": 1777464898797,
+          "entry_limit_px": 76913.93000000001
+        }
+      ]
+    }
+  ],
+  "fill_count": 2,
+  "hedge_group_count": 1,
+  "total_capital_traded_usd": 4000.0,
+  "total_net_pnl_usd": 4.652544207443555,
+  "qa": {
+    "duplicate_minute_tier_fills": 0,
+    "max_anchor_book_age_ms": 33,
+    "max_hedge_book_age_ms": 3,
+    "tie_convention": "If OKX book update and Binance trade share exact ms, use the same-ms OKX book; otherwise latest strictly prior book."
+  }
+}

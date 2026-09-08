@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-22",
+  "policy": "ideal continuous peg to latest OKX bid; five tiers -40/-60/-80/-100/-120bp; $2k each; strict seller-aggressor price-through; each tier max once per minute; +100ms OKX hedge; 32.5bp all-in cost",
+  "trigger_minutes_screened": [
+    "2026-08-22 05:10:00"
+  ],
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-08-22.zip",
+  "okx_file": {
+    "filename": "BTC-USDT.OK.csv.gz",
+    "sizeMB": "373.73"
+  },
+  "seller_aggressor_trades_in_minutes": 17762,
+  "fills": [],
+  "hedge_groups": [],
+  "fill_count": 0,
+  "hedge_group_count": 0,
+  "total_capital_traded_usd": 0,
+  "total_net_pnl_usd": 0,
+  "qa": {
+    "duplicate_minute_tier_fills": 0,
+    "max_anchor_book_age_ms": null,
+    "max_hedge_book_age_ms": null,
+    "tie_convention": "If OKX book update and Binance trade share exact ms, use the same-ms OKX book; otherwise latest strictly prior book."
+  }
+}
