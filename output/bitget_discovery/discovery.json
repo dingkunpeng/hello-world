@@ -1,0 +1,604 @@
+{
+  "page_status": 200,
+  "html_len": 178776,
+  "scripts": [
+    "/cdnstatic/libs/react.v18.3.0.min.js",
+    "/cdnstatic/libs/react-dom.v18.3.0.min.js",
+    "/cdnstatic/libs/verify-auth.v1.min.js",
+    "/cdnstatic/libs/dx-sdk-new.v1.1511.0.min.js",
+    "/landing-static/client/js/runtime.63e322d41e1e04d80dbb.main.js",
+    "/landing-static/client/js/4000.a865986384736b33a060.main.js",
+    "/landing-static/client/js/105.92cc0dbbce286b04c1bb.main.js",
+    "/landing-static/client/js/7846.588eb416726fede3b154.main.js",
+    "/landing-static/client/js/2280.54045c6fe950a0c7e910.main.js",
+    "/landing-static/client/js/152.a472aec3c374783ee151.main.js",
+    "/landing-static/client/js/9257.7f1eb3170c6a4d373007.main.js",
+    "/landing-static/client/js/5632.3c4e38d986d1b40c310d.main.js",
+    "/landing-static/client/js/9539.b7ce18158345e4f8d428.main.js",
+    "/landing-static/client/js/1486.fa71ea1da1bec4d92c52.main.js",
+    "/landing-static/client/js/client.44b30c4268a5f3a7772c.main.js",
+    "/landing-static/client/js/3507.e708ea0bf6570949f782.chunk.js",
+    "/landing-static/client/js/4823.f424f72a255603cc77af.chunk.js",
+    "/landing-static/client/js/2033.5181f48e13ce50e9b9a1.chunk.js",
+    "/landing-static/client/js/3923.8689691e65b94d2059e8.chunk.js",
+    "/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js"
+  ],
+  "html_hits": [
+    {
+      "pattern": "data-download",
+      "context": "data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Bold.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><li"
+    },
+    {
+      "pattern": "data-download",
+      "context": "pe=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ata-download\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ink data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/f"
+    },
+    {
+      "pattern": "data-download",
+      "context": "><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.co"
+    },
+    {
+      "pattern": "data-download",
+      "context": " data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/d"
+    },
+    {
+      "pattern": "data-download",
+      "context": "rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data"
+    },
+    {
+      "pattern": "data-download",
+      "context": " data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh"
+    },
+    {
+      "pattern": "data-download",
+      "context": "nk data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget"
+    },
+    {
+      "pattern": "data-download",
+      "context": "nk data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bit"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ink data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ink data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www"
+    },
+    {
+      "pattern": "data-download",
+      "context": "-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitg"
+    },
+    {
+      "pattern": "data-download",
+      "context": "e\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site"
+    },
+    {
+      "pattern": "data-download",
+      "context": "\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/dat"
+    },
+    {
+      "pattern": "data-download",
+      "context": "data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/dat"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ink data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-"
+    },
+    {
+      "pattern": "data-download",
+      "context": "nk data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.co"
+    },
+    {
+      "pattern": "data-download",
+      "context": "k data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget."
+    },
+    {
+      "pattern": "data-download",
+      "context": "nk data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitget"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ink data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitgetapp.com/ph/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www."
+    },
+    {
+      "pattern": "data-download",
+      "context": "ta-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitgetapp.com/ph/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitge"
+    },
+    {
+      "pattern": "data-download",
+      "context": "\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitgetapp.com/ph/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget."
+    },
+    {
+      "pattern": "data-download",
+      "context": "ta-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitgetapp.com/ph/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget.site/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bit"
+    },
+    {
+      "pattern": "data-download",
+      "context": "data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitgetapp.com/ph/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget.site/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bitget.com/es-AR/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.b"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ata-rh=\"true\" rel=\"alternate\" hrefLang=\"fil\" href=\"https://www.bitgetapp.com/ph/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget.site/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bitget.com/es-AR/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.bitgetapp.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ata-rh=\"true\" rel=\"alternate\" hrefLang=\"en-FR\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget.site/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bitget.com/es-AR/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.bitgetapp.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://w"
+    },
+    {
+      "pattern": "data-download",
+      "context": "-rh=\"true\" rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget.site/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bitget.com/es-AR/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.bitgetapp.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://www.bitgetapp.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https:/"
+    },
+    {
+      "pattern": "data-download",
+      "context": "h=\"true\" rel=\"alternate\" hrefLang=\"ru-FR\" href=\"https://www.bitget.site/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bitget.com/es-AR/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.bitgetapp.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://www.bitgetapp.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://www.bitget.com/en-CA/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https:/"
+    },
+    {
+      "pattern": "data-download",
+      "context": "\"true\" rel=\"alternate\" hrefLang=\"es-AR\" href=\"https://www.bitget.com/es-AR/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.bitgetapp.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://www.bitgetapp.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://www.bitget.com/en-CA/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https://www.bitget.com/az-AZ/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https:/"
+    },
+    {
+      "pattern": "data-download",
+      "context": "rh=\"true\" rel=\"alternate\" hrefLang=\"uz-UZ\" href=\"https://www.bitgetapp.com/uz/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://www.bitgetapp.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://www.bitget.com/en-CA/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https://www.bitget.com/az-AZ/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https://www.bitget.com/en-AE/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"x-default\" href=\""
+    },
+    {
+      "pattern": "data-download",
+      "context": "rh=\"true\" rel=\"alternate\" hrefLang=\"en-UZ\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://www.bitgetapp.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://www.bitget.com/en-CA/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https://www.bitget.com/az-AZ/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https://www.bitget.com/en-AE/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:card\" property=\"twitter:car"
+    },
+    {
+      "pattern": "data-download",
+      "context": "\"true\" rel=\"alternate\" hrefLang=\"ru-UZ\" href=\"https://www.bitgetapp.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://www.bitget.com/en-CA/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https://www.bitget.com/az-AZ/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https://www.bitget.com/en-AE/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:card\" property=\"twitter:card\" content=\"summary_large_image\"/><meta data-rh=\"true\" name=\"twitter:image\" content=\"https://img.bgstatic"
+    },
+    {
+      "pattern": "data-download",
+      "context": "\"true\" rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://www.bitget.com/en-CA/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https://www.bitget.com/az-AZ/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https://www.bitget.com/en-AE/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:card\" property=\"twitter:card\" content=\"summary_large_image\"/><meta data-rh=\"true\" name=\"twitter:image\" content=\"https://img.bgstatic.com/video/open_graph_new.png\"/><meta data-rh=\"true\" name=\"twitter:site\" content=\"@bitgetglobal\"/><meta d"
+    },
+    {
+      "pattern": "data-download",
+      "context": "\"true\" rel=\"alternate\" hrefLang=\"az-AZ\" href=\"https://www.bitget.com/az-AZ/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https://www.bitget.com/en-AE/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:card\" property=\"twitter:card\" content=\"summary_large_image\"/><meta data-rh=\"true\" name=\"twitter:image\" content=\"https://img.bgstatic.com/video/open_graph_new.png\"/><meta data-rh=\"true\" name=\"twitter:site\" content=\"@bitgetglobal\"/><meta data-rh=\"true\" property=\"og:site_name\" content=\"Bitget\"/><meta data-rh=\"true\" property=\"og:type\" content=\""
+    },
+    {
+      "pattern": "data-download",
+      "context": "h=\"true\" rel=\"alternate\" hrefLang=\"en-AE\" href=\"https://www.bitget.com/en-AE/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:card\" property=\"twitter:card\" content=\"summary_large_image\"/><meta data-rh=\"true\" name=\"twitter:image\" content=\"https://img.bgstatic.com/video/open_graph_new.png\"/><meta data-rh=\"true\" name=\"twitter:site\" content=\"@bitgetglobal\"/><meta data-rh=\"true\" property=\"og:site_name\" content=\"Bitget\"/><meta data-rh=\"true\" property=\"og:type\" content=\"website\"/><meta data-rh=\"true\" data-hid=\"og:image\" property=\"og:image\" content=\"https://img.bgstatic.co"
+    },
+    {
+      "pattern": "data-download",
+      "context": "dth=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover\"/><meta data-rh=\"true\" property=\"og:url\" content=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:url\" property=\"twitter:url\" content=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" property=\"og:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"twitter:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><meta data-rh=\"tru"
+    },
+    {
+      "pattern": "data-download",
+      "context": "data-rh=\"true\" property=\"og:url\" content=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" data-hid=\"twitter:url\" property=\"twitter:url\" content=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" property=\"og:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"twitter:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><meta data-rh=\"true\" property=\"og:description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction "
+    },
+    {
+      "pattern": "data-download",
+      "context": "1.min.js\"></script><script data-rh=\"true\" id=\"dx-sdk-new\" data-dx-sdk-new=\"true\" src=\"/cdnstatic/libs/dx-sdk-new.v1.1511.0.min.js\" async=\"true\"></script><script data-rh=\"true\" id=\"data-download-jsonld\" type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.bitget.com#organization\",\"name\":\"Bitget\",\"url\":\"https://www.bitget.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.bitget.com/micro-runtime/images/logo-light.svg\"},\"sameAs\":[\"https://en.wikipedia.org/wiki/Bitget\",\"https://x.com/bitget\",\"https://www.youtube.com/@Bitget\",\"https://www.linkedin.com/company/bitget-global/\",\"https://coinmarketcap.com/exchanges/bi"
+    },
+    {
+      "pattern": "data-download",
+      "context": "nkedin.com/company/bitget-global/\",\"https://coinmarketcap.com/exchanges/bitget/\",\"https://www.coingecko.com/en/exchanges/bitget\"]},{\"@type\":\"WebPage\",\"@id\":\"https://www.bitget.com/data-download#webpage\",\"url\":\"https://www.bitget.com/data-download\",\"name\":\"History data download | Bitget\",\"description\":\"Download Bitget's candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\",\"inLanguage\":\"en\",\"isPartOf\":{\"@id\":\"https://www.bitget.com#website\"},\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"about\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"},\"mainEntity\":{\"@id\":\"https://www.bitget.com/data-download"
+    },
+    {
+      "pattern": "data-download",
+      "context": "tcap.com/exchanges/bitget/\",\"https://www.coingecko.com/en/exchanges/bitget\"]},{\"@type\":\"WebPage\",\"@id\":\"https://www.bitget.com/data-download#webpage\",\"url\":\"https://www.bitget.com/data-download\",\"name\":\"History data download | Bitget\",\"description\":\"Download Bitget's candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\",\"inLanguage\":\"en\",\"isPartOf\":{\"@id\":\"https://www.bitget.com#website\"},\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"about\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"},\"mainEntity\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"}},{\"@type\":\"DataCatalog\",\"@id\":\"https://www"
+    },
+    {
+      "pattern": "data-download",
+      "context": "cent years.\",\"inLanguage\":\"en\",\"isPartOf\":{\"@id\":\"https://www.bitget.com#website\"},\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"about\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"},\"mainEntity\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"}},{\"@type\":\"DataCatalog\",\"@id\":\"https://www.bitget.com/data-download#catalog\",\"name\":\"History data download\",\"description\":\"Download candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\",\"url\":\"https://www.bitget.com/data-download\",\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.bitget.com/data-downloa"
+    },
+    {
+      "pattern": "data-download",
+      "context": ".com#website\"},\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"about\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"},\"mainEntity\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"}},{\"@type\":\"DataCatalog\",\"@id\":\"https://www.bitget.com/data-download#catalog\",\"name\":\"History data download\",\"description\":\"Download candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\",\"url\":\"https://www.bitget.com/data-download\",\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.bitget.com/data-download#webpage\"},\"dataset\":[{\"@type\":\"Dataset\",\"name\":\"Spot Historical Ma"
+    },
+    {
+      "pattern": "data-download",
+      "context": "t\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"},\"mainEntity\":{\"@id\":\"https://www.bitget.com/data-download#catalog\"}},{\"@type\":\"DataCatalog\",\"@id\":\"https://www.bitget.com/data-download#catalog\",\"name\":\"History data download\",\"description\":\"Download candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\",\"url\":\"https://www.bitget.com/data-download\",\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.bitget.com/data-download#webpage\"},\"dataset\":[{\"@type\":\"Dataset\",\"name\":\"Spot Historical Market Data\",\"description\":\"Historical market data for Bitget spot trading pairs"
+    },
+    {
+      "pattern": "data-download",
+      "context": "data download\",\"description\":\"Download candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\",\"url\":\"https://www.bitget.com/data-download\",\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.bitget.com/data-download#webpage\"},\"dataset\":[{\"@type\":\"Dataset\",\"name\":\"Spot Historical Market Data\",\"description\":\"Historical market data for Bitget spot trading pairs, including candlestick chart data, transaction history, and order book depth data.\",\"keywords\":[\"Spot\",\"Candlestick Chart Data\",\"Transaction History\",\"Depth Data\"]},{\"@type\":\"Dataset\",\"name\":\"Futures Historical Market "
+    },
+    {
+      "pattern": "data-download",
+      "context": "rading from recent years.\",\"url\":\"https://www.bitget.com/data-download\",\"publisher\":{\"@id\":\"https://www.bitget.com#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.bitget.com/data-download#webpage\"},\"dataset\":[{\"@type\":\"Dataset\",\"name\":\"Spot Historical Market Data\",\"description\":\"Historical market data for Bitget spot trading pairs, including candlestick chart data, transaction history, and order book depth data.\",\"keywords\":[\"Spot\",\"Candlestick Chart Data\",\"Transaction History\",\"Depth Data\"]},{\"@type\":\"Dataset\",\"name\":\"Futures Historical Market Data\",\"description\":\"Historical market data for Bitget futures contracts, including candlestick chart data, transaction his"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ywords\":[\"Futures\",\"Candlestick Chart Data\",\"Transaction History\",\"Depth Data\"]}]}]}</script><title data-rh=\"true\">History data download | Bitget</title>\n  <link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"style\" href=\"/landing-static/client/css/77efbcdbebc558aca160.css\" integrity=\"sha384-LaA+3ZMkBlvJ5JdX8f0zeziQgoagb9O2yRSVOpfhUsPUSrQOj146D3u7bRnJmAn+\" crossorigin=\"anonymous\">\n<link data-chunk=\"client\" rel=\"preload\" as=\"style\" href=\"/landing-static/client/css/4aad3be94bec86e4c9b1.css\" integrity=\"sha384-DnsB9tooK6e6W5J1hKhDii5VbZlonn9hq1ad37rNSts9at0MhzFcfhWov7imOyXc\" crossorigin=\"anonymous\">\n<link data-chunk=\"client\" rel=\"preload\" as=\"script\" href=\"/lan"
+    },
+    {
+      "pattern": "data-download",
+      "context": "client/js/client.44b30c4268a5f3a7772c.main.js\" integrity=\"sha384-1ZDStcxlSis+NYFmuUEA1zF2xB9she5i8JulgfUCvJpo0Jjo5DgtVDUFw7Ers6sm\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/3507.e708ea0bf6570949f782.chunk.js\" integrity=\"sha384-meKT1dizIiUqTF75WY4xGZjaGtFv0K3E76JEveDs+eAegQIM/X6gVq7LqgXybREf\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/4823.f424f72a255603cc77af.chunk.js\" integrity=\"sha384-4Wi91pusl9UQj1V5G88xqoLkjoOUZNC1rC2Zd3zSo/nt4HgFi4nWDNUaHeZkkFT4\" crossorigin=\"anonymous\">\n<link data-chunk=\""
+    },
+    {
+      "pattern": "data-download",
+      "context": "/client/js/3507.e708ea0bf6570949f782.chunk.js\" integrity=\"sha384-meKT1dizIiUqTF75WY4xGZjaGtFv0K3E76JEveDs+eAegQIM/X6gVq7LqgXybREf\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/4823.f424f72a255603cc77af.chunk.js\" integrity=\"sha384-4Wi91pusl9UQj1V5G88xqoLkjoOUZNC1rC2Zd3zSo/nt4HgFi4nWDNUaHeZkkFT4\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/2033.5181f48e13ce50e9b9a1.chunk.js\" integrity=\"sha384-pTi4AsbVhhRr7xCK+E127HgL/HZd7TqbyhPaGWBhu6+rAXHBK3HScQvvobJkD19O\" crossorigin=\"anonymous\">\n<link data-chunk=\""
+    },
+    {
+      "pattern": "data-download",
+      "context": "/client/js/4823.f424f72a255603cc77af.chunk.js\" integrity=\"sha384-4Wi91pusl9UQj1V5G88xqoLkjoOUZNC1rC2Zd3zSo/nt4HgFi4nWDNUaHeZkkFT4\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/2033.5181f48e13ce50e9b9a1.chunk.js\" integrity=\"sha384-pTi4AsbVhhRr7xCK+E127HgL/HZd7TqbyhPaGWBhu6+rAXHBK3HScQvvobJkD19O\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/3923.8689691e65b94d2059e8.chunk.js\" integrity=\"sha384-1f2Vv+WPtjSZ8jkSpf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\">\n<link data-chunk=\""
+    },
+    {
+      "pattern": "data-download",
+      "context": "/client/js/2033.5181f48e13ce50e9b9a1.chunk.js\" integrity=\"sha384-pTi4AsbVhhRr7xCK+E127HgL/HZd7TqbyhPaGWBhu6+rAXHBK3HScQvvobJkD19O\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/3923.8689691e65b94d2059e8.chunk.js\" integrity=\"sha384-1f2Vv+WPtjSZ8jkSpf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js\" integrity=\"sha384-1WTQVBNLb0ayEkjYIXm+w2TyDHPe7v9S1PsgpSP0ypDQCk/M6F/68FSIgIZTkeZb\" crossorigin=\"anon"
+    },
+    {
+      "pattern": "data-download",
+      "context": "/client/js/3923.8689691e65b94d2059e8.chunk.js\" integrity=\"sha384-1f2Vv+WPtjSZ8jkSpf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js\" integrity=\"sha384-1WTQVBNLb0ayEkjYIXm+w2TyDHPe7v9S1PsgpSP0ypDQCk/M6F/68FSIgIZTkeZb\" crossorigin=\"anonymous\">\n  <style data-rc-order=\"prependQueue\" data-rc-priority=\"0\" data-token-hash=\"1dmuu5c\" data-css-hash=\"14kdo5q\">.anticon{display:inline-flex;align-items:center;color:inherit;font-style:normal;line-height:0;text-align:center;text-transform:none;vert"
+    },
+    {
+      "pattern": "data-download",
+      "context": "BZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"preload\" as=\"script\" href=\"/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js\" integrity=\"sha384-1WTQVBNLb0ayEkjYIXm+w2TyDHPe7v9S1PsgpSP0ypDQCk/M6F/68FSIgIZTkeZb\" crossorigin=\"anonymous\">\n  <style data-rc-order=\"prependQueue\" data-rc-priority=\"0\" data-token-hash=\"1dmuu5c\" data-css-hash=\"14kdo5q\">.anticon{display:inline-flex;align-items:center;color:inherit;font-style:normal;line-height:0;text-align:center;text-transform:none;vertical-align:-0.125em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-"
+    },
+    {
+      "pattern": "data-download",
+      "context": "ng-static/client/css/4aad3be94bec86e4c9b1.css\" integrity=\"sha384-DnsB9tooK6e6W5J1hKhDii5VbZlonn9hq1ad37rNSts9at0MhzFcfhWov7imOyXc\" crossorigin=\"anonymous\">\n<link data-chunk=\"pages-data-download-index-page\" rel=\"stylesheet\" href=\"/landing-static/client/css/77efbcdbebc558aca160.css\" integrity=\"sha384-LaA+3ZMkBlvJ5JdX8f0zeziQgoagb9O2yRSVOpfhUsPUSrQOj146D3u7bRnJmAn+\" crossorigin=\"anonymous\">\n</head>\n<body class=\"dark\">\n  <div id=\"root\"><div class=\"css-1nq5kd1 bit-app\"><div class=\"sticky top-0 z-[999] w-full\"><div class=\"mc-header-placeholder\"><div class=\"micro micro-dark\" data-micro-type=\"Header\"><div></div></div></div></div><main><div class=\"N1u3SmO0DxCDE_NJTxFK relative pb-"
+    },
+    {
+      "pattern": "data-download",
+      "context": " charts, order book depth, and transaction history for spot and futures trading from recent years.</div></div><img src=\"/landing-static/client/media/e8490355fb09cb76a4e3.png\" alt=\"data-download-banner\" class=\"&lt;md:!w-[200px] md:h-[304px] md:w-[320px] &lt;md:self-end\"/></div><div class=\"mb-[80px] &lt;md:mb-[48px]\"><div class=\"text-[32px] leading-[44px] font-normal\">Spot</div><div class=\"flex gap-[40px] mt-[32px] &lt;xl:flex-col &lt;xl:gap-[32px] &lt;md:flex-col &lt;md:gap-[16px] &lt;md:mt-[24px]\"><div class=\"flex flex-1 flex-col justify-between p-[40px] border border-solid border-[var(--ds-color-border-subtle)] bg-[var(--ds-color-bg-primary)] rounded-[8px] cursor-pointer"
+    },
+    {
+      "pattern": "data-download",
+      "context": "son\" crossorigin=\"anonymous\">[3507,4823,2033,3923,568]</script><script id=\"__LOADABLE_REQUIRED_CHUNKS___ext\" type=\"application/json\" crossorigin=\"anonymous\">{\"namedChunks\":[\"pages-data-download-index-page\"]}</script>\n<script async data-chunk=\"client\" src=\"/landing-static/client/js/runtime.63e322d41e1e04d80dbb.main.js\" integrity=\"sha384-ZzO9UsZKrLaCsQR8tfyI8/qIhRBOTXxzbWNyqsrR1zT6Lt9kUZSHJY/Z7Xlcdq1S\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"client\" src=\"/landing-static/client/js/4000.a865986384736b33a060.main.js\" integrity=\"sha384-Atpklk5dOjg9pHHdNnBJQzm/uw1Q04spxap4C8YcPdQhmHTHDhES3VBbABDzruNK\" crossorigin=\"anonymous\"></script>\n<script async data-chunk"
+    },
+    {
+      "pattern": "data-download",
+      "context": "44b30c4268a5f3a7772c.main.js\" integrity=\"sha384-1ZDStcxlSis+NYFmuUEA1zF2xB9she5i8JulgfUCvJpo0Jjo5DgtVDUFw7Ers6sm\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/3507.e708ea0bf6570949f782.chunk.js\" integrity=\"sha384-meKT1dizIiUqTF75WY4xGZjaGtFv0K3E76JEveDs+eAegQIM/X6gVq7LqgXybREf\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/4823.f424f72a255603cc77af.chunk.js\" integrity=\"sha384-4Wi91pusl9UQj1V5G88xqoLkjoOUZNC1rC2Zd3zSo/nt4HgFi4nWDNUaHeZkkFT4\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-"
+    },
+    {
+      "pattern": "data-download",
+      "context": "708ea0bf6570949f782.chunk.js\" integrity=\"sha384-meKT1dizIiUqTF75WY4xGZjaGtFv0K3E76JEveDs+eAegQIM/X6gVq7LqgXybREf\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/4823.f424f72a255603cc77af.chunk.js\" integrity=\"sha384-4Wi91pusl9UQj1V5G88xqoLkjoOUZNC1rC2Zd3zSo/nt4HgFi4nWDNUaHeZkkFT4\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/2033.5181f48e13ce50e9b9a1.chunk.js\" integrity=\"sha384-pTi4AsbVhhRr7xCK+E127HgL/HZd7TqbyhPaGWBhu6+rAXHBK3HScQvvobJkD19O\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-"
+    },
+    {
+      "pattern": "data-download",
+      "context": "424f72a255603cc77af.chunk.js\" integrity=\"sha384-4Wi91pusl9UQj1V5G88xqoLkjoOUZNC1rC2Zd3zSo/nt4HgFi4nWDNUaHeZkkFT4\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/2033.5181f48e13ce50e9b9a1.chunk.js\" integrity=\"sha384-pTi4AsbVhhRr7xCK+E127HgL/HZd7TqbyhPaGWBhu6+rAXHBK3HScQvvobJkD19O\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/3923.8689691e65b94d2059e8.chunk.js\" integrity=\"sha384-1f2Vv+WPtjSZ8jkSpf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-"
+    },
+    {
+      "pattern": "data-download",
+      "context": "181f48e13ce50e9b9a1.chunk.js\" integrity=\"sha384-pTi4AsbVhhRr7xCK+E127HgL/HZd7TqbyhPaGWBhu6+rAXHBK3HScQvvobJkD19O\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/3923.8689691e65b94d2059e8.chunk.js\" integrity=\"sha384-1f2Vv+WPtjSZ8jkSpf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js\" integrity=\"sha384-1WTQVBNLb0ayEkjYIXm+w2TyDHPe7v9S1PsgpSP0ypDQCk/M6F/68FSIgIZTkeZb\" crossorigin=\"anonymous\"></script>\n  \n</body>\n</html>"
+    },
+    {
+      "pattern": "data-download",
+      "context": "689691e65b94d2059e8.chunk.js\" integrity=\"sha384-1f2Vv+WPtjSZ8jkSpf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js\" integrity=\"sha384-1WTQVBNLb0ayEkjYIXm+w2TyDHPe7v9S1PsgpSP0ypDQCk/M6F/68FSIgIZTkeZb\" crossorigin=\"anonymous\"></script>\n  \n</body>\n</html>"
+    },
+    {
+      "pattern": "data-download",
+      "context": "Spf7HPmVJoBZ5XmRPmiBAPA+kZdQenrsPIBBH1z+hSu/zf5dZ\" crossorigin=\"anonymous\"></script>\n<script async data-chunk=\"pages-data-download-index-page\" src=\"/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js\" integrity=\"sha384-1WTQVBNLb0ayEkjYIXm+w2TyDHPe7v9S1PsgpSP0ypDQCk/M6F/68FSIgIZTkeZb\" crossorigin=\"anonymous\"></script>\n  \n</body>\n</html>"
+    },
+    {
+      "pattern": "download",
+      "context": "rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Bold.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link da"
+    },
+    {
+      "pattern": "download",
+      "context": "ont/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data"
+    },
+    {
+      "pattern": "download",
+      "context": "ownload\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data"
+    },
+    {
+      "pattern": "download",
+      "context": "ata-rh=\"true\" rel=\"alternate\" hrefLang=\"ar\" href=\"https://www.bitget.com/ar/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/dat"
+    },
+    {
+      "pattern": "download",
+      "context": "k data-rh=\"true\" rel=\"alternate\" hrefLang=\"de\" href=\"https://www.bitget.com/de/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/"
+    },
+    {
+      "pattern": "download",
+      "context": "-rh=\"true\" rel=\"alternate\" hrefLang=\"en\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-d"
+    },
+    {
+      "pattern": "download",
+      "context": "rue\" rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://www.bitget.com/en-GB/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-down"
+    },
+    {
+      "pattern": "download",
+      "context": "-rh=\"true\" rel=\"alternate\" hrefLang=\"en-NG\" href=\"https://www.bitgetapp.com/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/d"
+    },
+    {
+      "pattern": "download",
+      "context": "ta-rh=\"true\" rel=\"alternate\" hrefLang=\"es\" href=\"https://www.bitget.com/es/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/"
+    },
+    {
+      "pattern": "download",
+      "context": "ta-rh=\"true\" rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.bitget.site/fr/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetap"
+    },
+    {
+      "pattern": "download",
+      "context": "ata-rh=\"true\" rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.bitget.com/ja/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitg"
+    },
+    {
+      "pattern": "download",
+      "context": "ata-rh=\"true\" rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.bitget.com/pt/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitg"
+    },
+    {
+      "pattern": "download",
+      "context": "true\" rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.bitget.com/vi/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.si"
+    },
+    {
+      "pattern": "download",
+      "context": "l=\"alternate\" hrefLang=\"zh-Hans\" href=\"https://www.bitget.com/zh-CN/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data"
+    },
+    {
+      "pattern": "download",
+      "context": "\" rel=\"alternate\" hrefLang=\"zh-Hant\" href=\"https://www.bitget.com/zh-TC/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-dow"
+    },
+    {
+      "pattern": "download",
+      "context": "rh=\"true\" rel=\"alternate\" hrefLang=\"id\" href=\"https://www.bitgetapps.com/id/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-dow"
+    },
+    {
+      "pattern": "download",
+      "context": "ata-rh=\"true\" rel=\"alternate\" hrefLang=\"it\" href=\"https://www.bitget.com/it/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/da"
+    },
+    {
+      "pattern": "download",
+      "context": "ta-rh=\"true\" rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.bitget.com/ru/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-"
+    },
+    {
+      "pattern": "download",
+      "context": "a-rh=\"true\" rel=\"alternate\" hrefLang=\"en-IN\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"en-MY\" href=\"https://www.bitget.site/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pl\" href=\"https://www.bitget.com/pl/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uk\" href=\"https://www.bitget.com/uk/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"pt-PT\" href=\"https://www.bitget.com/pt-PT/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://www.bitget.com/es-ES/data-download\"/><link data-rh=\"true\" rel=\"alternate\" hrefLang=\"uz\" href=\"https://www.bitget.com/u"
+    },
+    {
+      "pattern": "depth",
+      "context": "ata-rh=\"true\" name=\"twitter:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><meta data-rh=\"true\" property=\"og:description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><meta data-rh=\"true\" name=\"twitter:description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><script data-rh=\"true\" >if(!window._"
+    },
+    {
+      "pattern": "history",
+      "context": "ata-download\"/><meta data-rh=\"true\" data-hid=\"twitter:url\" property=\"twitter:url\" content=\"https://www.bitget.com/data-download\"/><meta data-rh=\"true\" property=\"og:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"twitter:title\" content=\"History data download | Bitget\"/><meta data-rh=\"true\" name=\"description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><meta data-rh=\"true\" property=\"og:description\" content=\"Download Bitget&#x27;s candlestick charts, order book depth, and transaction history for spot and futures trading from recent years.\"/><meta da"
+    },
+    {
+      "pattern": "static",
+      "context": "rk bg-bg\">\n<head>\n  <meta charset=\"utf-8\">\n  \n  <link data-rh=\"true\" rel=\"icon\" href=\"/baseasset/favicon4.png\" type=\"image/x-icon\"/><link data-rh=\"true\" rel=\"stylesheet\" href=\"/cdnstatic/css/font.20250814.css\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Regular.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Medium.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-SemiBold.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Bold.woff2\" as=\"font\" type=\"font/wof"
+    },
+    {
+      "pattern": "oss",
+      "context": "ta-rh=\"true\" rel=\"stylesheet\" href=\"/cdnstatic/css/font.20250814.css\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Regular.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Medium.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-SemiBold.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"preload\" href=\"/cdnstatic/fonts/Pulse-Bold.woff2\" as=\"font\" type=\"font/woff2\" crossOrigin=\"\"/><link data-rh=\"true\" rel=\"canonical\" href=\"https://www.bitget.com/data-download\"/><link data-rh=\"true\" rel=\"canonical\" h"
+    }
+  ],
+  "js_hits": [
+    {
+      "src": "https://www.bitget.com/cdnstatic/libs/react-dom.v18.3.0.min.js",
+      "size": 131835,
+      "hits": [
+        "download"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/cdnstatic/libs/dx-sdk-new.v1.1511.0.min.js",
+      "size": 108811,
+      "hits": [
+        "colorDepth",
+        "n[158],P=t[187],x=a[170],B=n[82],F=void 0,L=function(t){return F[e[164]](n[1],0,e[52],1),F.enable(F.DEPTH_TEST),F[la(",
+        ")]|F.DEPTH_BUFFER_BIT),",
+        "](F.DEPTH_BITS)),k[ua(a[175])](ca(e[170])+F.getParameter(F[ca(",
+        "webgl depth bits:"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/runtime.63e322d41e1e04d80dbb.main.js",
+      "size": 125941,
+      "hits": [
+        "pages-data-download-index-page",
+        "pages-data-download-index-page"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/4000.a865986384736b33a060.main.js",
+      "size": 111206,
+      "hits": [
+        ",fe.ERR_FORM_DATA_DEPTH_EXCEEDED=",
+        "ERR_FORM_DATA_DEPTH_EXCEEDED",
+        "!=typeof Blob&&Blob,c=void 0===n.maxDepth?100:n.maxDepth,u=s&&Z.isSpecCompliantForm(t);if(!Z.isFunction(o))throw new TypeError(",
+        " levels). Max depth: ",
+        "+c,de.ERR_FORM_DATA_DEPTH_EXCEEDED);if(-1!==d.indexOf(n))throw Error(",
+        "download",
+        "s:a,withXSRFToken:a,adapter:a,responseType:a,xsrfCookieName:a,xsrfHeaderName:a,onUploadProgress:a,onDownloadProgress:a,decompress:a,maxContentLength:a,maxBodyLength:a,beforeRedirect:a,transport:a,httpAgent:a,httpsAgent:a,cancelToken:a,socketPath:a,allowedSocketPaths:a,responseEncoding:a,validateStatus:s,headers:(e,t,n)=>o(Ke(e),Ke(t),0,!0)};return Z.forEac",
+        " o=r.data;const i=ue.from(r.headers).normalize();let a,s,c,u,l,{responseType:f,onUploadProgress:d,onDownloadProgress:h}=r;function p(){u&&u(),l&&l(),r.cancelToken&&r.cancelToken.unsubscribe(a),r.signal&&r.signal.removeEventListener(",
+        "eLength:void 0)})(t)};return async e=>{let{url:t,method:n,data:s,signal:u,cancelToken:l,timeout:f,onDownloadProgress:d,onUploadProgress:g,responseType:y,headers:b,withCredentials:A="
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/105.92cc0dbbce286b04c1bb.main.js",
+      "size": 279713,
+      "hits": [
+        ",downloadFile:",
+        "Download file",
+        ",downloadFile:",
+        "Download file"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/7846.588eb416726fede3b154.main.js",
+      "size": 281159,
+      "hits": [
+        "},cd:function(){return window.screen.colorDepth},res:function(){if(!(m()&&b()&&y()))return function(){const e=screen,t=e=>d(l(e),null),r=[t(e.width),t(e.height)];return r.sort().reverse(),r.join()}()},plugins:function(){const e=navigator.plugins;if(!e)return;const t=[];for(let r=0;r<e.length;++r)",
+        "depth bits",
+        ",param:e.DEPTH_BITS},{name:",
+        "web_nav_download_time",
+        "[TxToken] SDK preloaded (download only)"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/2280.54045c6fe950a0c7e910.main.js",
+      "size": 228766,
+      "hits": [
+        "))}return r},colorDepth:function(){return window.screen.colorDepth},deviceMemory:function(){return b(v(navigator.deviceMemory),void 0)},screenResolution:function(){var e=screen,t=function(e){return b(y(e),null)},r=[t(e.width),t(e.height)];return r.sort().reverse(),r},hardwareConcurrency:function(){return b(y(naviga",
+        "Maximum nesting depth exceeded",
+        "/download"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/5632.3c4e38d986d1b40c310d.main.js",
+      "size": 120369,
+      "hits": [
+        "ap=function(t,n){return ge(xi(t,n),1)},Br.flatMapDeep=function(t,n){return ge(xi(t,n),v)},Br.flatMapDepth=function(t,n,r){return r=r===o?1:_c(r),ge(xi(t,n),r)},Br.flatten=Hu,Br.flattenDeep=function(t){return(null==t?0:t.length)?ge(t,v):[]},Br.flattenDepth=function(t,n){return(null==t?0:t.length)?ge(t,n=n===o?1:_c(n)):[]},Br.flip=function(t){return Xo(t,"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/9539.b7ce18158345e4f8d428.main.js",
+      "size": 233199,
+      "hits": [
+        "ntentEditable contextMenu\\n    controls coords crossOrigin data dateTime default defer dir disabled download draggable\\n    encType form formAction formEncType formMethod formNoValidate formTarget frameBorder\\n    headers height hidden high href hrefLang htmlFor httpEquiv icon id inputMode integrity\\n    is keyParams keyType kind label lang list loop low m"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/1486.fa71ea1da1bec4d92c52.main.js",
+      "size": 140161,
+      "hits": [
+        "))}return n},colorDepth:function(){return window.screen.colorDepth},deviceMemory:function(){return fi(di(navigator.deviceMemory),void 0)},screenResolution:function(){var e=screen,t=function(e){return fi(hi(e),null)},n=[t(e.width),t(e.height)];return n.sort().reverse(),n},hardwareConcurrency:function(){return fi(hi("
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/client.44b30c4268a5f3a7772c.main.js",
+      "size": 173912,
+      "hits": [
+        "/api/kol/status",
+        "pages-data-download-index-page",
+        "data-download",
+        "pages-data-download-index-page",
+        "data-download"
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/2033.5181f48e13ce50e9b9a1.chunk.js",
+      "size": 226911,
+      "hits": [
+        "https://api.whatsapp.com/send?url=",
+        "download",
+        "DOWNLOAD_IMAGE",
+        "download_poster_in_app",
+        "download_success",
+        "download_fail_no_permission",
+        "download-poster",
+        "download_success",
+        "download",
+        ",function(e){var t=e.size,n=e.platform,r=e.className,i=p(),a=z(),o=a.result,s=a.downloadFileName,c=(0,l.A)(function(){null!=o&&o.dataUrl&&At(o.dataUrl,s,i)});return u().createElement(ar,{size:t,platform:n,icon:u().createElement(or,{className:",
+        "download",
+        ",download:",
+        "Download",
+        ",download_fail_no_permission:",
+        "Download failed. Set permissions and try again.",
+        ",download_image:",
+        "Download image",
+        ",download_poster_in_app:",
+        "Tap and hold to download image",
+        ",download_success:",
+        "Downloaded",
+        "could not download file",
+        "download",
+        "download",
+        ",l.download=t,l.rel=",
+        "download",
+        "downloading..."
+      ]
+    },
+    {
+      "src": "https://www.bitget.com/landing-static/client/js/pages-data-download-index-page.1bb260aee93643988eaa.chunk.js",
+      "size": 28979,
+      "hits": [
+        "data-download",
+        "data-download-banner",
+        "data-download-jsonld",
+        ";return`${location.origin}${location.pathname}${d}`}}}]);\n//# sourceMappingURL=pages-data-download-index-page.1bb260aee93643988eaa.chunk.js.map",
+        "or Bitget spot trading pairs, including candlestick chart data, transaction history, and order book depth data.",
+        "Depth Data",
+        "for Bitget futures contracts, including candlestick chart data, transaction history, and order book depth data.",
+        "Depth Data",
+        "/statistics/public/download/getPublicDataV2",
+        "/statistics/public/download/getSymbolList",
+        "M=t(27844),P=t(32447),B=t(48354),Y=t(65723);const I=e=>{let a=e.visible,t=e.onClose,n=e.files,l=e.onDownload;const d=(0,r.Bd)(",
+        "data_download.data_download_check",
+        "data_download.data_download_tips",
+        "data_download.file_name",
+        "data_download.date",
+        "data_download.file_count",
+        "data_download.download",
+        "data_download.select_title",
+        "data_download.data_type_selector",
+        "data_download.data_type_placeholder",
+        "data_download.data_trading_pair_selector",
+        "data_download.data_coin_placeholder",
+        "data_download.data_time_period_selector",
+        "data_download.data_time_period_placeholder",
+        "data_download.data_date_selector",
+        "data_download.data_date_selector_tips",
+        "data_download.timezone_tips",
+        "data_download.data_time_start_placeholder",
+        "data_download.data_time_end_placeholder",
+        "data_download.data_params_desc",
+        "data_download.data_params_name",
+        "data_download.data_params_desc",
+        ">{s(e.fileUrl,e.fileName)})},[a,s]),c=(0,d.useCallback)(()=>{t([])},[]);return{files:a,loading:l,getDownloadFiles:o,downloadFile:s,downloadAllFiles:i,reset:c}})(),W=V.files,G=V.loading,Z=V.getDownloadFiles,q=V.downloadAllFiles,ee=V.reset,ae=(e=>{const a=(0,r.Bd)(",
+        "data_download.data_date_selector_tips",
+        "data_download.data_kline",
+        "data_download.data_historical_transaction",
+        "data_download.data_deep",
+        "data_download.data_kline",
+        "data_download.data_historical_transaction",
+        "data_download.data_deep",
+        "data_download.data_time_period_day",
+        "data_download.data_timestamp",
+        "data_download.data_open_price",
+        "data_download.data_high_price",
+        "data_download.data_low_price",
+        "data_download.data_close_price",
+        "data_download.data_base_volume",
+        "data_download.data_usdt_volume",
+        "data_download.data_timestamp",
+        "data_download.data_traceId",
+        "data_download.data_trading_price",
+        "data_download.data_trading_side",
+        "data_download.data_base_volume",
+        "data_download.data_usdt_volume",
+        "data_download.data_timestamp",
+        "data_download.data_ask_price",
+        "data_download.data_bid_price",
+        "data_download.data_ask_volume",
+        "data_download.data_bid_volume",
+        "data_download.download_start_tips",
+        "data_download.page_title",
+        ")})})]})}),(0,Y.jsx)(I,{visible:y,onClose:ye,files:W,onDownload:_e})]})};const $=t.p+",
+        "data_download.download",
+        ",{src:$,alt:`${t} ${a} download arrow`,width:14,height:11,className:",
+        "data_download.kline_title",
+        "data_download.kline_desc",
+        "data_download.deal_title",
+        "data_download.deal_desc",
+        "data_download.deep_data_title",
+        "data_download.deep_data_subtitle",
+        "data_download.kline_title",
+        "data_download.kline_desc",
+        "data_download.deal_title",
+        "data_download.deal_desc",
+        "data_download.deep_data_title",
+        "data_download.deep_data_subtitle",
+        "data_download.data_download_text",
+        "data_download.page_title",
+        "data_download.data_download_text",
+        "data-download",
+        "download",
+        "data_download.page_title",
+        "data_download.page_subtitle",
+        "data-download-banner",
+        "seo.data_download.title",
+        "seo.data_download.desc",
+        "data_download.page_title",
+        "data_download.page_subtitle",
+        "seo.data_download.title",
+        "seo.data_download.desc",
+        "data-download-jsonld",
+        ";return`${location.origin}${location.pathname}${d}`}}}]);\n//# sourceMappingURL=pages-data-download-index-page.1bb260aee93643988eaa.chunk.js.map"
+      ]
+    }
+  ]
+}
