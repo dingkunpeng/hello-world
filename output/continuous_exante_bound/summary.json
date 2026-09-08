@@ -1,0 +1,28 @@
+{
+  "period": "2026-01-01..2026-09-05 UTC",
+  "trigger_minutes": 564,
+  "traded_capital_proxy_usd": 1512000.0,
+  "cost_bp": 32.5,
+  "interpretation": {
+    "index_high": "OPTIMISTIC UPPER-BOUND PROXY: assumes every fill can hedge near the highest Binance index price of that same minute. Not executable evidence.",
+    "index_close": "diagnostic proxy only",
+    "index_low": "pessimistic diagnostic proxy only"
+  },
+  "total_pnl_usd": {
+    "low": -5365.314079031568,
+    "close": -4071.470212502879,
+    "high": 2821.973529537548
+  },
+  "positive_minutes_after_cost": {
+    "low": 10,
+    "close": 35,
+    "high": 564
+  },
+  "negative_minutes_after_cost": {
+    "low": 554,
+    "close": 529,
+    "high": 0
+  },
+  "max_minute_high_proxy_pnl": 63.003523655076584,
+  "min_minute_high_proxy_pnl": 0.1531462655823333
+}
