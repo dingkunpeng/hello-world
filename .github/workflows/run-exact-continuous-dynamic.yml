@@ -1,0 +1,69 @@
+name: Run exact continuous dynamic replay
+on:
+  push:
+    paths:
+      - 'exact_continuous_dynamic_day.py'
+      - 'aggregate_continuous_dynamic_exact.py'
+      - '.github/workflows/run-exact-continuous-dynamic.yml'
+  workflow_dispatch:
+jobs:
+  replay:
+    strategy:
+      fail-fast: false
+      max-parallel: 14
+      matrix:
+        date:
+          - '2026-02-01'
+          - '2026-02-02'
+          - '2026-02-03'
+          - '2026-02-07'
+          - '2026-02-14'
+          - '2026-02-15'
+          - '2026-02-20'
+          - '2026-04-29'
+          - '2026-05-01'
+          - '2026-05-04'
+          - '2026-06-09'
+          - '2026-07-10'
+          - '2026-07-20'
+          - '2026-08-22'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Exact replay ${{ matrix.date }}
+        run: python exact_continuous_dynamic_day.py --date ${{ matrix.date }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exact-${{ matrix.date }}
+          path: output/continuous_dynamic_exact/${{ matrix.date }}/summary.json
+          if-no-files-found: error
+  aggregate:
+    needs: replay
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: exact-*
+          path: downloaded_exact
+      - name: Rebuild expected directory tree
+        run: |
+          mkdir -p output/continuous_dynamic_exact
+          for d in downloaded_exact/exact-*; do
+            date=${d#downloaded_exact/exact-}
+            mkdir -p "output/continuous_dynamic_exact/$date"
+            cp "$d/summary.json" "output/continuous_dynamic_exact/$date/summary.json"
+          done
+      - name: Aggregate
+        run: python aggregate_continuous_dynamic_exact.py
+      - name: Commit exact results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/continuous_dynamic_exact
+          git commit -m "Add exact continuous dynamic replay results" || exit 0
+          git push
