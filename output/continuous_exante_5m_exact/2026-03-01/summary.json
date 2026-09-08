@@ -1,0 +1,726 @@
+{
+  "date": "2026-03-01",
+  "policy": "STRICT EX-ANTE 5m stale peg: every 5m bar ladder armed from previous completed 5m Binance index close only; static 300s; strict seller-aggressor price-through; +100ms OKX 50-level hedge; 32.5bp cost.",
+  "trigger_bars": [
+    "2026-03-01T01:10:00+00:00",
+    "2026-03-01T02:05:00+00:00",
+    "2026-03-01T02:45:00+00:00",
+    "2026-03-01T03:20:00+00:00",
+    "2026-03-01T08:50:00+00:00",
+    "2026-03-01T13:55:00+00:00",
+    "2026-03-01T15:55:00+00:00",
+    "2026-03-01T16:45:00+00:00",
+    "2026-03-01T16:50:00+00:00",
+    "2026-03-01T17:15:00+00:00",
+    "2026-03-01T20:05:00+00:00",
+    "2026-03-01T22:25:00+00:00",
+    "2026-03-01T22:30:00+00:00",
+    "2026-03-01T22:45:00+00:00"
+  ],
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-03-01.zip",
+  "fill_count": 23,
+  "hedge_group_count": 23,
+  "total_capital_traded_usd": 46000.0,
+  "total_net_pnl_usd": -154.08793807988943,
+  "positive_hedges": 0,
+  "negative_hedges": 23,
+  "uncovered_hedges": 0,
+  "fills": [
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T01:10:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772327502657,
+      "fill_t_utc": "2026-03-01T01:11:42.657000+00:00",
+      "binance_trade_px": 66201.11,
+      "static_anchor_prev_5m_index_close": 66467.1126087,
+      "entry_limit_px": 66201.24,
+      "qty_btc": 0.030210914478339075,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772327502757
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T02:05:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772330941307,
+      "fill_t_utc": "2026-03-01T02:09:01.307000+00:00",
+      "binance_trade_px": 67749.09,
+      "static_anchor_prev_5m_index_close": 68021.20543478,
+      "entry_limit_px": 67749.12,
+      "qty_btc": 0.029520678644977236,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772330941407
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T02:45:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772333333860,
+      "fill_t_utc": "2026-03-01T02:48:53.860000+00:00",
+      "binance_trade_px": 67797.61,
+      "static_anchor_prev_5m_index_close": 68070.32826087,
+      "entry_limit_px": 67798.04000000001,
+      "qty_btc": 0.02949937785812097,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772333333960
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T03:20:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772335396447,
+      "fill_t_utc": "2026-03-01T03:23:16.447000+00:00",
+      "binance_trade_px": 67422.28,
+      "static_anchor_prev_5m_index_close": 67693.06891304,
+      "entry_limit_px": 67422.29000000001,
+      "qty_btc": 0.029663780331400783,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772335396547
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T08:50:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772355101500,
+      "fill_t_utc": "2026-03-01T08:51:41.500000+00:00",
+      "binance_trade_px": 66706.67,
+      "static_anchor_prev_5m_index_close": 66974.76543478,
+      "entry_limit_px": 66706.86,
+      "qty_btc": 0.029981923898081846,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772355101600
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T08:50:00+00:00",
+      "tier_bp": 60,
+      "fill_t_ms": 1772355170287,
+      "fill_t_utc": "2026-03-01T08:52:50.287000+00:00",
+      "binance_trade_px": 66572.78,
+      "static_anchor_prev_5m_index_close": 66974.76543478,
+      "entry_limit_px": 66572.91,
+      "qty_btc": 0.03004224991817242,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772355170387
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T08:50:00+00:00",
+      "tier_bp": 80,
+      "fill_t_ms": 1772355199961,
+      "fill_t_utc": "2026-03-01T08:53:19.961000+00:00",
+      "binance_trade_px": 66438.76,
+      "static_anchor_prev_5m_index_close": 66974.76543478,
+      "entry_limit_px": 66438.96,
+      "qty_btc": 0.030102819189222706,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772355200061
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T13:55:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772373352642,
+      "fill_t_utc": "2026-03-01T13:55:52.642000+00:00",
+      "binance_trade_px": 66893.31,
+      "static_anchor_prev_5m_index_close": 67162.09869565,
+      "entry_limit_px": 66893.45,
+      "qty_btc": 0.02989829348015389,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772373352742
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T15:55:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772380738662,
+      "fill_t_utc": "2026-03-01T15:58:58.662000+00:00",
+      "binance_trade_px": 66831.56,
+      "static_anchor_prev_5m_index_close": 67100.07782609,
+      "entry_limit_px": 66831.67,
+      "qty_btc": 0.029925931822442863,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772380738762
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T16:45:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772383643877,
+      "fill_t_utc": "2026-03-01T16:47:23.877000+00:00",
+      "binance_trade_px": 66576.22,
+      "static_anchor_prev_5m_index_close": 66843.61956522,
+      "entry_limit_px": 66576.24,
+      "qty_btc": 0.030040747269596477,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772383643977
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T16:45:00+00:00",
+      "tier_bp": 60,
+      "fill_t_ms": 1772383701541,
+      "fill_t_utc": "2026-03-01T16:48:21.541000+00:00",
+      "binance_trade_px": 66442.52,
+      "static_anchor_prev_5m_index_close": 66843.61956522,
+      "entry_limit_px": 66442.55,
+      "qty_btc": 0.03010119268450714,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772383701641
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T16:45:00+00:00",
+      "tier_bp": 80,
+      "fill_t_ms": 1772383706881,
+      "fill_t_utc": "2026-03-01T16:48:26.881000+00:00",
+      "binance_trade_px": 66308.31,
+      "static_anchor_prev_5m_index_close": 66843.61956522,
+      "entry_limit_px": 66308.87,
+      "qty_btc": 0.030161877287307116,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772383706981
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T16:45:00+00:00",
+      "tier_bp": 100,
+      "fill_t_ms": 1772383710330,
+      "fill_t_utc": "2026-03-01T16:48:30.330000+00:00",
+      "binance_trade_px": 66175.01,
+      "static_anchor_prev_5m_index_close": 66843.61956522,
+      "entry_limit_px": 66175.18000000001,
+      "qty_btc": 0.03022281163421089,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772383710430
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T16:45:00+00:00",
+      "tier_bp": 120,
+      "fill_t_ms": 1772383761186,
+      "fill_t_utc": "2026-03-01T16:49:21.186000+00:00",
+      "binance_trade_px": 66041.29,
+      "static_anchor_prev_5m_index_close": 66843.61956522,
+      "entry_limit_px": 66041.49,
+      "qty_btc": 0.030283992683993045,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772383761286
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T16:50:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772383845166,
+      "fill_t_utc": "2026-03-01T16:50:45.166000+00:00",
+      "binance_trade_px": 65833.27,
+      "static_anchor_prev_5m_index_close": 66097.68065217,
+      "entry_limit_px": 65833.28,
+      "qty_btc": 0.03037977144690345,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772383845266
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T17:15:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772385465057,
+      "fill_t_utc": "2026-03-01T17:17:45.057000+00:00",
+      "binance_trade_px": 65844.55,
+      "static_anchor_prev_5m_index_close": 66109.0026087,
+      "entry_limit_px": 65844.56,
+      "qty_btc": 0.030374567010547266,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772385465157
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T17:15:00+00:00",
+      "tier_bp": 60,
+      "fill_t_ms": 1772385473886,
+      "fill_t_utc": "2026-03-01T17:17:53.886000+00:00",
+      "binance_trade_px": 65712.25,
+      "static_anchor_prev_5m_index_close": 66109.0026087,
+      "entry_limit_px": 65712.34,
+      "qty_btc": 0.030435683769593352,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772385473986
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T20:05:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772395748931,
+      "fill_t_utc": "2026-03-01T20:09:08.931000+00:00",
+      "binance_trade_px": 65649.76,
+      "static_anchor_prev_5m_index_close": 65913.58043478,
+      "entry_limit_px": 65649.92,
+      "qty_btc": 0.03046462204371308,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772395749031
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T22:25:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772404005243,
+      "fill_t_utc": "2026-03-01T22:26:45.243000+00:00",
+      "binance_trade_px": 65857.59,
+      "static_anchor_prev_5m_index_close": 66122.36673913,
+      "entry_limit_px": 65857.87,
+      "qty_btc": 0.030368428253145754,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772404005343
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T22:30:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772404471153,
+      "fill_t_utc": "2026-03-01T22:34:31.153000+00:00",
+      "binance_trade_px": 65605.62,
+      "static_anchor_prev_5m_index_close": 65869.21869565,
+      "entry_limit_px": 65605.74,
+      "qty_btc": 0.03048513742852378,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772404471253
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T22:30:00+00:00",
+      "tier_bp": 60,
+      "fill_t_ms": 1772404475672,
+      "fill_t_utc": "2026-03-01T22:34:35.672000+00:00",
+      "binance_trade_px": 65473.92,
+      "static_anchor_prev_5m_index_close": 65869.21869565,
+      "entry_limit_px": 65474.0,
+      "qty_btc": 0.030546476463939886,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772404475772
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T22:30:00+00:00",
+      "tier_bp": 80,
+      "fill_t_ms": 1772404494146,
+      "fill_t_utc": "2026-03-01T22:34:54.146000+00:00",
+      "binance_trade_px": 65342.1,
+      "static_anchor_prev_5m_index_close": 65869.21869565,
+      "entry_limit_px": 65342.26,
+      "qty_btc": 0.03060806283712868,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772404494246
+    },
+    {
+      "date": "2026-03-01",
+      "bar_utc": "2026-03-01T22:45:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1772405260037,
+      "fill_t_utc": "2026-03-01T22:47:40.037000+00:00",
+      "binance_trade_px": 65137.85,
+      "static_anchor_prev_5m_index_close": 65399.46347826,
+      "entry_limit_px": 65137.86,
+      "qty_btc": 0.03070410971438116,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1772405260137
+    }
+  ],
+  "hedge_groups": [
+    {
+      "arrival_ms": 1772327502757,
+      "arrival_utc": "2026-03-01T01:11:42.757000+00:00",
+      "okx_book_ms": 1772327502749,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.030210914478339075,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66214.5,
+      "covered_qty": 0.030210914478339075,
+      "gross_edge_bp": 2.0029836299140236,
+      "net_after_32_5bp": -30.497016370085976,
+      "net_pnl_usd": -6.099403274017195
+    },
+    {
+      "arrival_ms": 1772330941407,
+      "arrival_utc": "2026-03-01T02:09:01.407000+00:00",
+      "okx_book_ms": 1772330941405,
+      "book_age_ms": 2,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.029520678644977236,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 67739.21071325905,
+      "covered_qty": 0.029520678644977236,
+      "gross_edge_bp": -1.4626443474030637,
+      "net_after_32_5bp": -33.962644347403064,
+      "net_pnl_usd": -6.792528869480612
+    },
+    {
+      "arrival_ms": 1772333333960,
+      "arrival_utc": "2026-03-01T02:48:53.960000+00:00",
+      "okx_book_ms": 1772333333955,
+      "book_age_ms": 5,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02949937785812097,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 67836.78708998907,
+      "covered_qty": 0.02949937785812097,
+      "gross_edge_bp": 5.715075242449519,
+      "net_after_32_5bp": -26.78492475755048,
+      "net_pnl_usd": -5.356984951510096
+    },
+    {
+      "arrival_ms": 1772335396547,
+      "arrival_utc": "2026-03-01T03:23:16.547000+00:00",
+      "okx_book_ms": 1772335396538,
+      "book_age_ms": 9,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.029663780331400783,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 67428.5,
+      "covered_qty": 0.029663780331400783,
+      "gross_edge_bp": 0.9210603792886296,
+      "net_after_32_5bp": -31.57893962071137,
+      "net_pnl_usd": -6.315787924142274
+    },
+    {
+      "arrival_ms": 1772355101600,
+      "arrival_utc": "2026-03-01T08:51:41.600000+00:00",
+      "okx_book_ms": 1772355101594,
+      "book_age_ms": 6,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.029981923898081846,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66724.08384085902,
+      "covered_qty": 0.029981923898081846,
+      "gross_edge_bp": 2.5820194293380005,
+      "net_after_32_5bp": -29.917980570662,
+      "net_pnl_usd": -5.9835961141324
+    },
+    {
+      "arrival_ms": 1772355170387,
+      "arrival_utc": "2026-03-01T08:52:50.387000+00:00",
+      "okx_book_ms": 1772355170384,
+      "book_age_ms": 3,
+      "fills": 1,
+      "tiers_bp": [
+        60
+      ],
+      "qty_btc": 0.03004224991817242,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66602.0,
+      "covered_qty": 0.03004224991817242,
+      "gross_edge_bp": 4.369645250597021,
+      "net_after_32_5bp": -28.13035474940298,
+      "net_pnl_usd": -5.626070949880596
+    },
+    {
+      "arrival_ms": 1772355200061,
+      "arrival_utc": "2026-03-01T08:53:20.061000+00:00",
+      "okx_book_ms": 1772355200054,
+      "book_age_ms": 7,
+      "fills": 1,
+      "tiers_bp": [
+        80
+      ],
+      "qty_btc": 0.030102819189222706,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66502.79886765836,
+      "covered_qty": 0.030102819189222706,
+      "gross_edge_bp": 9.60864945182216,
+      "net_after_32_5bp": -22.89135054817784,
+      "net_pnl_usd": -4.578270109635568
+    },
+    {
+      "arrival_ms": 1772373352742,
+      "arrival_utc": "2026-03-01T13:55:52.742000+00:00",
+      "okx_book_ms": 1772373352734,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02989829348015389,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66886.19975171317,
+      "covered_qty": 0.02989829348015389,
+      "gross_edge_bp": -1.0838502554177953,
+      "net_after_32_5bp": -33.583850255417794,
+      "net_pnl_usd": -6.716770051083558
+    },
+    {
+      "arrival_ms": 1772380738762,
+      "arrival_utc": "2026-03-01T15:58:58.762000+00:00",
+      "okx_book_ms": 1772380738755,
+      "book_age_ms": 7,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.029925931822442863,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66823.3,
+      "covered_qty": 0.029925931822442863,
+      "gross_edge_bp": -1.2524002467684259,
+      "net_after_32_5bp": -33.752400246768424,
+      "net_pnl_usd": -6.750480049353685
+    },
+    {
+      "arrival_ms": 1772383643977,
+      "arrival_utc": "2026-03-01T16:47:23.977000+00:00",
+      "okx_book_ms": 1772383643969,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.030040747269596477,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66595.87737243134,
+      "covered_qty": 0.030040747269596477,
+      "gross_edge_bp": 2.9496067112422253,
+      "net_after_32_5bp": -29.550393288757775,
+      "net_pnl_usd": -5.910078657751555
+    },
+    {
+      "arrival_ms": 1772383701641,
+      "arrival_utc": "2026-03-01T16:48:21.641000+00:00",
+      "okx_book_ms": 1772383701639,
+      "book_age_ms": 2,
+      "fills": 1,
+      "tiers_bp": [
+        60
+      ],
+      "qty_btc": 0.03010119268450714,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66400.5462636372,
+      "covered_qty": 0.03010119268450714,
+      "gross_edge_bp": -6.321812808630645,
+      "net_after_32_5bp": -38.821812808630646,
+      "net_pnl_usd": -7.764362561726129
+    },
+    {
+      "arrival_ms": 1772383706981,
+      "arrival_utc": "2026-03-01T16:48:26.981000+00:00",
+      "okx_book_ms": 1772383706979,
+      "book_age_ms": 2,
+      "fills": 1,
+      "tiers_bp": [
+        80
+      ],
+      "qty_btc": 0.030161877287307116,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66269.2,
+      "covered_qty": 0.030161877287307116,
+      "gross_edge_bp": -5.982608359936803,
+      "net_after_32_5bp": -38.482608359936805,
+      "net_pnl_usd": -7.6965216719873615
+    },
+    {
+      "arrival_ms": 1772383710430,
+      "arrival_utc": "2026-03-01T16:48:30.430000+00:00",
+      "okx_book_ms": 1772383710429,
+      "book_age_ms": 1,
+      "fills": 1,
+      "tiers_bp": [
+        100
+      ],
+      "qty_btc": 0.03022281163421089,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 66166.5,
+      "covered_qty": 0.03022281163421089,
+      "gross_edge_bp": -1.3116700249260482,
+      "net_after_32_5bp": -33.811670024926045,
+      "net_pnl_usd": -6.76233400498521
+    },
+    {
+      "arrival_ms": 1772383761286,
+      "arrival_utc": "2026-03-01T16:49:21.286000+00:00",
+      "okx_book_ms": 1772383761279,
+      "book_age_ms": 7,
+      "fills": 1,
+      "tiers_bp": [
+        120
+      ],
+      "qty_btc": 0.030283992683993045,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65945.6,
+      "covered_qty": 0.030283992683993045,
+      "gross_edge_bp": -14.519660292339198,
+      "net_after_32_5bp": -47.019660292339196,
+      "net_pnl_usd": -9.40393205846784
+    },
+    {
+      "arrival_ms": 1772383845266,
+      "arrival_utc": "2026-03-01T16:50:45.266000+00:00",
+      "okx_book_ms": 1772383845259,
+      "book_age_ms": 7,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.03037977144690345,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65821.3,
+      "covered_qty": 0.03037977144690345,
+      "gross_edge_bp": -1.8197483096682454,
+      "net_after_32_5bp": -34.31974830966824,
+      "net_pnl_usd": -6.863949661933648
+    },
+    {
+      "arrival_ms": 1772385465157,
+      "arrival_utc": "2026-03-01T17:17:45.157000+00:00",
+      "okx_book_ms": 1772385465149,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.030374567010547266,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65839.39436361805,
+      "covered_qty": 0.030374567010547266,
+      "gross_edge_bp": -0.7845198421785327,
+      "net_after_32_5bp": -33.28451984217853,
+      "net_pnl_usd": -6.6569039684357065
+    },
+    {
+      "arrival_ms": 1772385473986,
+      "arrival_utc": "2026-03-01T17:17:53.986000+00:00",
+      "okx_book_ms": 1772385473979,
+      "book_age_ms": 7,
+      "fills": 1,
+      "tiers_bp": [
+        60
+      ],
+      "qty_btc": 0.030435683769593352,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65744.7,
+      "covered_qty": 0.030435683769593352,
+      "gross_edge_bp": 4.924493633919891,
+      "net_after_32_5bp": -27.57550636608011,
+      "net_pnl_usd": -5.515101273216022
+    },
+    {
+      "arrival_ms": 1772395749031,
+      "arrival_utc": "2026-03-01T20:09:09.031000+00:00",
+      "okx_book_ms": 1772395749023,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.03046462204371308,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65621.4,
+      "covered_qty": 0.03046462204371308,
+      "gross_edge_bp": -4.344255103434502,
+      "net_after_32_5bp": -36.844255103434506,
+      "net_pnl_usd": -7.368851020686901
+    },
+    {
+      "arrival_ms": 1772404005343,
+      "arrival_utc": "2026-03-01T22:26:45.343000+00:00",
+      "okx_book_ms": 1772404005339,
+      "book_age_ms": 4,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.030368428253145754,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65847.94548762693,
+      "covered_qty": 0.030368428253145754,
+      "gross_edge_bp": -1.5069592097449735,
+      "net_after_32_5bp": -34.00695920974498,
+      "net_pnl_usd": -6.801391841948996
+    },
+    {
+      "arrival_ms": 1772404471253,
+      "arrival_utc": "2026-03-01T22:34:31.253000+00:00",
+      "okx_book_ms": 1772404471249,
+      "book_age_ms": 4,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.03048513742852378,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65525.75955742405,
+      "covered_qty": 0.03048513742852378,
+      "gross_edge_bp": -12.191073917611206,
+      "net_after_32_5bp": -44.691073917611206,
+      "net_pnl_usd": -8.938214783522241
+    },
+    {
+      "arrival_ms": 1772404475772,
+      "arrival_utc": "2026-03-01T22:34:35.772000+00:00",
+      "okx_book_ms": 1772404475769,
+      "book_age_ms": 3,
+      "fills": 1,
+      "tiers_bp": [
+        60
+      ],
+      "qty_btc": 0.030546476463939886,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65471.3,
+      "covered_qty": 0.030546476463939886,
+      "gross_edge_bp": -0.41237743226285595,
+      "net_after_32_5bp": -32.91237743226286,
+      "net_pnl_usd": -6.582475486452572
+    },
+    {
+      "arrival_ms": 1772404494246,
+      "arrival_utc": "2026-03-01T22:34:54.246000+00:00",
+      "okx_book_ms": 1772404494239,
+      "book_age_ms": 7,
+      "fills": 1,
+      "tiers_bp": [
+        80
+      ],
+      "qty_btc": 0.03060806283712868,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65328.61239421789,
+      "covered_qty": 0.03060806283712868,
+      "gross_edge_bp": -2.088633876776713,
+      "net_after_32_5bp": -34.58863387677671,
+      "net_pnl_usd": -6.917726775355342
+    },
+    {
+      "arrival_ms": 1772405260137,
+      "arrival_utc": "2026-03-01T22:47:40.137000+00:00",
+      "okx_book_ms": 1772405260129,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.03070410971438116,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 65131.79559943878,
+      "covered_qty": 0.03070410971438116,
+      "gross_edge_bp": -0.9310101009196714,
+      "net_after_32_5bp": -33.43101010091967,
+      "net_pnl_usd": -6.686202020183934
+    }
+  ],
+  "qa": {
+    "duplicate_bar_tier_fills": 0,
+    "max_hedge_book_age_ms": 9
+  }
+}

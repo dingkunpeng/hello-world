@@ -1,0 +1,206 @@
+{
+  "date": "2026-04-19",
+  "policy": "STRICT EX-ANTE 5m stale peg: every 5m bar ladder armed from previous completed 5m Binance index close only; static 300s; strict seller-aggressor price-through; +100ms OKX 50-level hedge; 32.5bp cost.",
+  "trigger_bars": [
+    "2026-04-19T15:35:00+00:00",
+    "2026-04-19T17:50:00+00:00",
+    "2026-04-19T20:40:00+00:00",
+    "2026-04-19T22:00:00+00:00"
+  ],
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-04-19.zip",
+  "fill_count": 6,
+  "hedge_group_count": 6,
+  "total_capital_traded_usd": 12000.0,
+  "total_net_pnl_usd": -41.962693074812115,
+  "positive_hedges": 0,
+  "negative_hedges": 6,
+  "uncovered_hedges": 0,
+  "fills": [
+    {
+      "date": "2026-04-19",
+      "bar_utc": "2026-04-19T15:35:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1776612970822,
+      "fill_t_utc": "2026-04-19T15:36:10.822000+00:00",
+      "binance_trade_px": 75438.6,
+      "static_anchor_prev_5m_index_close": 75741.58195652,
+      "entry_limit_px": 75438.61,
+      "qty_btc": 0.02651162315954655,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1776612970922
+    },
+    {
+      "date": "2026-04-19",
+      "bar_utc": "2026-04-19T17:50:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1776621089159,
+      "fill_t_utc": "2026-04-19T17:51:29.159000+00:00",
+      "binance_trade_px": 74766.42,
+      "static_anchor_prev_5m_index_close": 75066.72326087,
+      "entry_limit_px": 74766.45,
+      "qty_btc": 0.02674996606098056,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1776621089259
+    },
+    {
+      "date": "2026-04-19",
+      "bar_utc": "2026-04-19T20:40:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1776631494876,
+      "fill_t_utc": "2026-04-19T20:44:54.876000+00:00",
+      "binance_trade_px": 74494.0,
+      "static_anchor_prev_5m_index_close": 74793.18478261,
+      "entry_limit_px": 74494.01,
+      "qty_btc": 0.02684779621878323,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1776631494976
+    },
+    {
+      "date": "2026-04-19",
+      "bar_utc": "2026-04-19T22:00:00+00:00",
+      "tier_bp": 40,
+      "fill_t_ms": 1776636039053,
+      "fill_t_utc": "2026-04-19T22:00:39.053000+00:00",
+      "binance_trade_px": 74134.25,
+      "static_anchor_prev_5m_index_close": 74432.03956522,
+      "entry_limit_px": 74134.31,
+      "qty_btc": 0.026978061844778755,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1776636039153
+    },
+    {
+      "date": "2026-04-19",
+      "bar_utc": "2026-04-19T22:00:00+00:00",
+      "tier_bp": 60,
+      "fill_t_ms": 1776636065843,
+      "fill_t_utc": "2026-04-19T22:01:05.843000+00:00",
+      "binance_trade_px": 73985.38,
+      "static_anchor_prev_5m_index_close": 74432.03956522,
+      "entry_limit_px": 73985.44,
+      "qty_btc": 0.02703234582371883,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1776636065943
+    },
+    {
+      "date": "2026-04-19",
+      "bar_utc": "2026-04-19T22:00:00+00:00",
+      "tier_bp": 80,
+      "fill_t_ms": 1776636286851,
+      "fill_t_utc": "2026-04-19T22:04:46.851000+00:00",
+      "binance_trade_px": 73836.23,
+      "static_anchor_prev_5m_index_close": 74432.03956522,
+      "entry_limit_px": 73836.58,
+      "qty_btc": 0.02708684502992961,
+      "capital_usd": 2000.0,
+      "hedge_arrival_ms": 1776636286951
+    }
+  ],
+  "hedge_groups": [
+    {
+      "arrival_ms": 1776612970922,
+      "arrival_utc": "2026-04-19T15:36:10.922000+00:00",
+      "okx_book_ms": 1776612970917,
+      "book_age_ms": 5,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02651162315954655,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 75416.5,
+      "covered_qty": 0.02651162315954655,
+      "gross_edge_bp": -2.9308599402877444,
+      "net_after_32_5bp": -35.430859940287746,
+      "net_pnl_usd": -7.086171988057549
+    },
+    {
+      "arrival_ms": 1776621089259,
+      "arrival_utc": "2026-04-19T17:51:29.259000+00:00",
+      "okx_book_ms": 1776621089251,
+      "book_age_ms": 8,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02674996606098056,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 74762.2,
+      "covered_qty": 0.02674996606098056,
+      "gross_edge_bp": -0.568436778795034,
+      "net_after_32_5bp": -33.06843677879503,
+      "net_pnl_usd": -6.613687355759007
+    },
+    {
+      "arrival_ms": 1776631494976,
+      "arrival_utc": "2026-04-19T20:44:54.976000+00:00",
+      "okx_book_ms": 1776631494974,
+      "book_age_ms": 2,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.02684779621878323,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 74459.1,
+      "covered_qty": 0.02684779621878323,
+      "gross_edge_bp": -4.68628282998651,
+      "net_after_32_5bp": -37.18628282998651,
+      "net_pnl_usd": -7.437256565997301
+    },
+    {
+      "arrival_ms": 1776636039153,
+      "arrival_utc": "2026-04-19T22:00:39.153000+00:00",
+      "okx_book_ms": 1776636039150,
+      "book_age_ms": 3,
+      "fills": 1,
+      "tiers_bp": [
+        40
+      ],
+      "qty_btc": 0.026978061844778755,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 74120.2,
+      "covered_qty": 0.026978061844778755,
+      "gross_edge_bp": -1.9033022631487206,
+      "net_after_32_5bp": -34.40330226314872,
+      "net_pnl_usd": -6.880660452629743
+    },
+    {
+      "arrival_ms": 1776636065943,
+      "arrival_utc": "2026-04-19T22:01:05.943000+00:00",
+      "okx_book_ms": 1776636065940,
+      "book_age_ms": 3,
+      "fills": 1,
+      "tiers_bp": [
+        60
+      ],
+      "qty_btc": 0.02703234582371883,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 73967.9,
+      "covered_qty": 0.02703234582371883,
+      "gross_edge_bp": -2.3707367287406633,
+      "net_after_32_5bp": -34.87073672874067,
+      "net_pnl_usd": -6.9741473457481336
+    },
+    {
+      "arrival_ms": 1776636286951,
+      "arrival_utc": "2026-04-19T22:04:46.951000+00:00",
+      "okx_book_ms": 1776636286950,
+      "book_age_ms": 1,
+      "fills": 1,
+      "tiers_bp": [
+        80
+      ],
+      "qty_btc": 0.02708684502992961,
+      "capital_usd": 2000.0,
+      "sell_vwap_usdt": 73819.2,
+      "covered_qty": 0.02708684502992961,
+      "gross_edge_bp": -2.3538468331019136,
+      "net_after_32_5bp": -34.85384683310191,
+      "net_pnl_usd": -6.970769366620382
+    }
+  ],
+  "qa": {
+    "duplicate_bar_tier_fills": 0,
+    "max_hedge_book_age_ms": 8
+  }
+}
