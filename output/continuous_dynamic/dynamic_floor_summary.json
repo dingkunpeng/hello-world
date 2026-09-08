@@ -1,0 +1,28 @@
+{
+  "period_utc": "2026-01-01 through 2026-09-05 inclusive",
+  "minutes": 357120,
+  "method": "Full-year exhaustive 1m lower-envelope screen for an ideal continuously repriced fair-price peg. Current-minute index low is used only as a conservative offline proof of unavoidable dynamic price-through, never as a live decision input.",
+  "guaranteed_trigger_minutes": 19,
+  "guaranteed_trigger_clusters": 16,
+  "guaranteed_trigger_days": 14,
+  "layers_histogram": {
+    "1": 12,
+    "2": 5,
+    "3": 0,
+    "4": 1,
+    "5": 1
+  },
+  "worst_spot_vs_index_low_bp": -122.60482652819759,
+  "daily_backfill": {
+    "spot": [],
+    "index": [
+      "2026-06-29"
+    ]
+  },
+  "important_limitations": [
+    "This is a sufficient-trigger screen, not exact fill timing or P&L.",
+    "It undercounts opportunities when index was above its minute low at the spot-low instant.",
+    "Exact Binance aggTrades + OKX L2 at the trigger instant are required for final execution and 100ms P&L.",
+    "Ideal dynamic repricing ignores cancel/replace latency; stale-anchor risk must be tested separately."
+  ]
+}
