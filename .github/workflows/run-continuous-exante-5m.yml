@@ -1,0 +1,27 @@
+name: run-continuous-exante-5m
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'continuous_exante_5m_baseline.py'
+      - '.github/workflows/run-continuous-exante-5m.yml'
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Run 5m ex-ante prefilter
+        run: python continuous_exante_5m_baseline.py
+      - name: Commit 5m results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/continuous_exante_5m
+          git commit -m 'Add 5m ex-ante prefilter results' || true
+          git push
