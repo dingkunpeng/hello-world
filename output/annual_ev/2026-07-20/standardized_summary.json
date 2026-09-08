@@ -1,0 +1,92 @@
+{
+  "binance_detection": {
+    "minute_trade_count": 29672,
+    "minute_low": 63100.0,
+    "low_trade_count": 5,
+    "sweeps": [
+      {
+        "name": "sweep1",
+        "t0": 1784536654574,
+        "t0_utc": "2026-07-20T08:37:34.574000+00:00",
+        "binance_low": 63100.0,
+        "low_qty": 1.96165,
+        "seller_aggressor_low_qty": 1.96165,
+        "low_trade_count": 4
+      },
+      {
+        "name": "sweep2",
+        "t0": 1784536675053,
+        "t0_utc": "2026-07-20T08:37:55.053000+00:00",
+        "binance_low": 63100.0,
+        "low_qty": 3.99523,
+        "seller_aggressor_low_qty": 3.99523,
+        "low_trade_count": 1
+      }
+    ]
+  },
+  "okx_file": {
+    "filename": "BTC-USDT.OK.csv.gz",
+    "sizeMB": "360.72"
+  },
+  "cost_bp": 32.5,
+  "delays": [
+    0,
+    50,
+    100,
+    250,
+    500
+  ],
+  "results_100ms": [
+    {
+      "event": "2026-07-20",
+      "sweep": "sweep1",
+      "t0_utc": "2026-07-20T08:37:34.574000+00:00",
+      "t0_ms": 1784536654574,
+      "binance_low": 63100.0,
+      "low_qty": 1.96165,
+      "seller_aggressor_low_qty": 1.96165,
+      "okx_pre_book_ms": 1784536654574,
+      "okx_pre_best_bid": 64004.5,
+      "filled_layers": 5,
+      "capital_usd": 10000,
+      "qty_btc": 0.15750028691041248,
+      "binance_ladder_entry": 63491.94783174005,
+      "delay_ms": 100,
+      "okx_book_ms": 1784536654674,
+      "book_age_ms": 0,
+      "sell_vwap_usdt": 63923.066005559405,
+      "covered_qty": 0.15750028691041248,
+      "gross_edge_bp": 67.90123606884136,
+      "net_after_32_5bp": 35.40123606884136,
+      "net_pnl_usd": 35.40123606884136,
+      "ladder_json": "[{\"offset_bp\":40,\"limit_px\":63748.481999999996,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":63620.473,\"filled_price_through\":true},{\"offset_bp\":80,\"limit_px\":63492.464,\"filled_price_through\":true},{\"offset_bp\":100,\"limit_px\":63364.455,\"filled_price_through\":true},{\"offset_bp\":120,\"limit_px\":63236.445999999996,\"filled_price_through\":true}]"
+    },
+    {
+      "event": "2026-07-20",
+      "sweep": "sweep2",
+      "t0_utc": "2026-07-20T08:37:55.053000+00:00",
+      "t0_ms": 1784536675053,
+      "binance_low": 63100.0,
+      "low_qty": 3.99523,
+      "seller_aggressor_low_qty": 3.99523,
+      "okx_pre_book_ms": 1784536675014,
+      "okx_pre_best_bid": 63965.8,
+      "filled_layers": 5,
+      "capital_usd": 10000,
+      "qty_btc": 0.15759557628541337,
+      "binance_ladder_entry": 63453.55774383861,
+      "delay_ms": 100,
+      "okx_book_ms": 1784536675144,
+      "book_age_ms": 9,
+      "sell_vwap_usdt": 63912.76177727411,
+      "covered_qty": 0.15759557628541337,
+      "gross_edge_bp": 72.36852428185392,
+      "net_after_32_5bp": 39.86852428185392,
+      "net_pnl_usd": 39.86852428185392,
+      "ladder_json": "[{\"offset_bp\":40,\"limit_px\":63709.9368,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":63582.0052,\"filled_price_through\":true},{\"offset_bp\":80,\"limit_px\":63454.0736,\"filled_price_through\":true},{\"offset_bp\":100,\"limit_px\":63326.142,\"filled_price_through\":true},{\"offset_bp\":120,\"limit_px\":63198.2104,\"filled_price_through\":true}]"
+    }
+  ],
+  "cluster_net_pnl_100ms": 75.26976035069528,
+  "cluster_binance_capital_required_no_rebalance": 20000,
+  "cluster_total_prepositioned_capital_estimate": 40000
+}
