@@ -1,0 +1,11 @@
+/statistics/public/download/getPublicDataV2
+/statistics/public/download/getSymbolList
+/v1/spot/withdraw
+/v1/spot/query/batch/withdraw
+/asset/spot
+/subaccount/setting/history
+/trade-spot
+/social/fileUpload/uploadImage
+/act/file/upload-web
+/v1/broker/api/kol/status
+https://api.whatsapp.com/send?url=
