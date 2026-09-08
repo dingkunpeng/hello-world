@@ -1,0 +1,26 @@
+name: Run residual candidate OKX screen
+on:
+  push:
+    paths:
+      - 'screen_residual_candidates_okx5000.py'
+      - '.github/workflows/run-residual-screen.yml'
+permissions:
+  contents: write
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Screen residual candidates
+        run: python screen_residual_candidates_okx5000.py
+      - name: Commit results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/annual_ev/residual_screen
+          git diff --cached --quiet || git commit -m 'Add residual candidate OKX screen results'
+          git push
