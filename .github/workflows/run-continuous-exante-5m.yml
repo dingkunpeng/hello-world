@@ -25,3 +25,4 @@ jobs:
           git add output/continuous_exante_5m
           git commit -m 'Add 5m ex-ante prefilter results' || true
           git push
+# run requested 2026-09-08
