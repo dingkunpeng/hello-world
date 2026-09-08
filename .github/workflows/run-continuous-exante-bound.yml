@@ -1,0 +1,25 @@
+name: Run continuous ex-ante optimistic bound
+on:
+  push:
+    paths:
+      - 'continuous_exante_optimistic_bound.py'
+      - '.github/workflows/run-continuous-exante-bound.yml'
+permissions:
+  contents: write
+jobs:
+  bound:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python continuous_exante_optimistic_bound.py
+      - name: Commit results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/continuous_exante_bound
+          git diff --cached --quiet || git commit -m 'Add continuous ex-ante bound results'
+          git push
