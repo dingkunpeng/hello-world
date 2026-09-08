@@ -1,0 +1,208 @@
+{
+  "cost_bp": 32.5,
+  "detection": [
+    {
+      "date": "2026-06-09",
+      "minute": "2026-06-09 00:28:00",
+      "minute_trade_count": 4809,
+      "minute_low": 62457.0,
+      "low_trade_count": 5,
+      "sweeps": [
+        {
+          "name": "2026-06-09_sweep1",
+          "t0": 1780964929910,
+          "t0_utc": "2026-06-09T00:28:49.910000+00:00",
+          "binance_low": 62457.0,
+          "low_qty": 0.05344,
+          "seller_aggressor_low_qty": 0.05344,
+          "low_trade_count": 5
+        }
+      ]
+    },
+    {
+      "date": "2026-02-14",
+      "minute": "2026-02-14 13:18:00",
+      "minute_trade_count": 8168,
+      "minute_low": 69064.6,
+      "low_trade_count": 1,
+      "sweeps": [
+        {
+          "name": "2026-02-14_sweep1",
+          "t0": 1771075083690,
+          "t0_utc": "2026-02-14T13:18:03.690000+00:00",
+          "binance_low": 69064.6,
+          "low_qty": 0.03101,
+          "seller_aggressor_low_qty": 0.03101,
+          "low_trade_count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "minute": "2026-02-20 13:39:00",
+      "minute_trade_count": 18216,
+      "minute_low": 66280.2,
+      "low_trade_count": 1,
+      "sweeps": [
+        {
+          "name": "2026-02-20_sweep1",
+          "t0": 1771594789881,
+          "t0_utc": "2026-02-20T13:39:49.881000+00:00",
+          "binance_low": 66280.2,
+          "low_qty": 1.99107,
+          "seller_aggressor_low_qty": 1.99107,
+          "low_trade_count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "minute": "2026-05-01 04:29:00",
+      "minute_trade_count": 4524,
+      "minute_low": 76653.6,
+      "low_trade_count": 5,
+      "sweeps": [
+        {
+          "name": "2026-05-01_sweep1",
+          "t0": 1777609759442,
+          "t0_utc": "2026-05-01T04:29:19.442000+00:00",
+          "binance_low": 76653.6,
+          "low_qty": 0.02394,
+          "seller_aggressor_low_qty": 0.02394,
+          "low_trade_count": 5
+        }
+      ]
+    }
+  ],
+  "by_event": {
+    "2026-06-09": {
+      "rows_100ms": [
+        {
+          "event": "2026-06-09",
+          "minute": "2026-06-09 00:28:00",
+          "sweep": "2026-06-09_sweep1",
+          "t0_utc": "2026-06-09T00:28:49.910000+00:00",
+          "t0_ms": 1780964929910,
+          "binance_low": 62457.0,
+          "low_qty": 0.05344,
+          "seller_aggressor_low_qty": 0.05344,
+          "okx_pre_book_ms": 1780964929856,
+          "okx_pre_best_bid": 62825.8,
+          "filled_layers": 1,
+          "capital_usd": 2000,
+          "qty_btc": 0.0319619030480162,
+          "binance_ladder_entry": 62574.4968,
+          "delay_ms": 100,
+          "okx_book_ms": 1780964930006,
+          "book_age_ms": 4,
+          "sell_vwap_usdt": 62742.4,
+          "covered_qty": 0.0319619030480162,
+          "gross_edge_bp": 26.83252899925881,
+          "net_after_32_5bp": -5.667471000741191,
+          "net_pnl_usd": -1.1334942001482382,
+          "ladder_json": "[{\"offset_bp\":40,\"limit_px\":62574.4968,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":62448.8452,\"filled_price_through\":false},{\"offset_bp\":80,\"limit_px\":62323.193600000006,\"filled_price_through\":false},{\"offset_bp\":100,\"limit_px\":62197.542,\"filled_price_through\":false},{\"offset_bp\":120,\"limit_px\":62071.890400000004,\"filled_price_through\":false}]"
+        }
+      ],
+      "net_pnl_100ms": -1.1334942001482382,
+      "binance_capital_no_rebalance": 2000,
+      "total_prepositioned_capital_estimate": 4000
+    },
+    "2026-02-14": {
+      "rows_100ms": [
+        {
+          "event": "2026-02-14",
+          "minute": "2026-02-14 13:18:00",
+          "sweep": "2026-02-14_sweep1",
+          "t0_utc": "2026-02-14T13:18:03.690000+00:00",
+          "t0_ms": 1771075083690,
+          "binance_low": 69064.6,
+          "low_qty": 0.03101,
+          "seller_aggressor_low_qty": 0.03101,
+          "okx_pre_book_ms": 1771075083682,
+          "okx_pre_best_bid": 69525.9,
+          "filled_layers": 2,
+          "capital_usd": 4000,
+          "qty_btc": 0.05782168318744098,
+          "binance_ladder_entry": 69178.20062472361,
+          "delay_ms": 100,
+          "okx_book_ms": 1771075083782,
+          "book_age_ms": 8,
+          "sell_vwap_usdt": 69449.2,
+          "covered_qty": 0.05782168318744098,
+          "gross_edge_bp": 39.17410005306321,
+          "net_after_32_5bp": 6.6741000530632135,
+          "net_pnl_usd": 2.6696400212252853,
+          "ladder_json": "[{\"offset_bp\":40,\"limit_px\":69247.79639999999,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":69108.74459999999,\"filled_price_through\":true},{\"offset_bp\":80,\"limit_px\":68969.69279999999,\"filled_price_through\":false},{\"offset_bp\":100,\"limit_px\":68830.64099999999,\"filled_price_through\":false},{\"offset_bp\":120,\"limit_px\":68691.58919999999,\"filled_price_through\":false}]"
+        }
+      ],
+      "net_pnl_100ms": 2.6696400212252853,
+      "binance_capital_no_rebalance": 4000,
+      "total_prepositioned_capital_estimate": 8000
+    },
+    "2026-02-20": {
+      "rows_100ms": [
+        {
+          "event": "2026-02-20",
+          "minute": "2026-02-20 13:39:00",
+          "sweep": "2026-02-20_sweep1",
+          "t0_utc": "2026-02-20T13:39:49.881000+00:00",
+          "t0_ms": 1771594789881,
+          "binance_low": 66280.2,
+          "low_qty": 1.99107,
+          "seller_aggressor_low_qty": 1.99107,
+          "okx_pre_book_ms": 1771594789872,
+          "okx_pre_best_bid": 66617.5,
+          "filled_layers": 1,
+          "capital_usd": 2000,
+          "qty_btc": 0.030142712177942076,
+          "binance_ladder_entry": 66351.03,
+          "delay_ms": 100,
+          "okx_book_ms": 1771594789972,
+          "book_age_ms": 9,
+          "sell_vwap_usdt": 66566.9853937756,
+          "covered_qty": 0.030142712177942076,
+          "gross_edge_bp": 32.54740638926057,
+          "net_after_32_5bp": 0.04740638926057272,
+          "net_pnl_usd": 0.009481277852114545,
+          "ladder_json": "[{\"offset_bp\":40,\"limit_px\":66351.03,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":66217.795,\"filled_price_through\":false},{\"offset_bp\":80,\"limit_px\":66084.56,\"filled_price_through\":false},{\"offset_bp\":100,\"limit_px\":65951.325,\"filled_price_through\":false},{\"offset_bp\":120,\"limit_px\":65818.09,\"filled_price_through\":false}]"
+        }
+      ],
+      "net_pnl_100ms": 0.009481277852114545,
+      "binance_capital_no_rebalance": 2000,
+      "total_prepositioned_capital_estimate": 4000
+    },
+    "2026-05-01": {
+      "rows_100ms": [
+        {
+          "event": "2026-05-01",
+          "minute": "2026-05-01 04:29:00",
+          "sweep": "2026-05-01_sweep1",
+          "t0_utc": "2026-05-01T04:29:19.442000+00:00",
+          "t0_ms": 1777609759442,
+          "binance_low": 76653.6,
+          "low_qty": 0.02394,
+          "seller_aggressor_low_qty": 0.02394,
+          "okx_pre_book_ms": 1777609759438,
+          "okx_pre_best_bid": 76999.9,
+          "filled_layers": 1,
+          "capital_usd": 2000,
+          "qty_btc": 0.026078373199368524,
+          "binance_ladder_entry": 76691.9004,
+          "delay_ms": 100,
+          "okx_book_ms": 1777609759538,
+          "book_age_ms": 4,
+          "sell_vwap_usdt": 76963.2,
+          "covered_qty": 0.026078373199368524,
+          "gross_edge_bp": 35.37526108819744,
+          "net_after_32_5bp": 2.8752610881974405,
+          "net_pnl_usd": 0.5750522176394881,
+          "ladder_json": "[{\"offset_bp\":40,\"limit_px\":76691.9004,\"filled_price_through\":true},{\"offset_bp\":60,\"limit_px\":76537.9006,\"filled_price_through\":false},{\"offset_bp\":80,\"limit_px\":76383.90079999999,\"filled_price_through\":false},{\"offset_bp\":100,\"limit_px\":76229.901,\"filled_price_through\":false},{\"offset_bp\":120,\"limit_px\":76075.9012,\"filled_price_through\":false}]"
+        }
+      ],
+      "net_pnl_100ms": 0.5750522176394881,
+      "binance_capital_no_rebalance": 2000,
+      "total_prepositioned_capital_estimate": 4000
+    }
+  },
+  "total_net_pnl_100ms": 2.12067931656865
+}
