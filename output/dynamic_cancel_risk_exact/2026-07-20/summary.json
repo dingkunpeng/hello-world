@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-20",
+  "experiment": "CAUSAL STALE-QUOTE RESCUE TEST on the exact same static-risk minutes that produced the strict ex-ante baseline. Dynamic order price is latest OKX best bid observed at t-cancel_latency, approximating a continuously repriced peg with 0/10/20/50/100ms cancel/replace lag. One fill per tier per minute. +100ms OKX 50-level hedge. 32.5bp all-in cost.",
+  "important_scope": "This isolates whether real-time repricing rescues the 564 known static-risk minutes. It is NOT yet the exhaustive full-year dynamic-strategy EV because dynamic fills outside this static-risk universe are not included.",
+  "trigger_minutes": [
+    "2026-07-20 08:36:00",
+    "2026-07-20 08:37:00"
+  ],
+  "binance_archive": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-07-20.zip",
+  "okx_file": {
+    "filename": "BTC-USDT.OK.csv.gz",
+    "sizeMB": "360.72"
+  },
+  "by_latency": {
+    "0": {
+      "fill_count": 6,
+      "hedge_groups": 4,
+      "capital_usd": 12000.0,
+      "net_pnl_usd": 39.23260097991325,
+      "positive_hedges": 3,
+      "negative_hedges": 1,
+      "uncovered_hedges": 0,
+      "cancel_race_only_fills": 0,
+      "ideal_zero_latency_fills": 6,
+      "max_lagged_anchor_age_ms": 8,
+      "max_hedge_book_age_ms": 8
+    },
+    "10": {
+      "fill_count": 6,
+      "hedge_groups": 4,
+      "capital_usd": 12000.0,
+      "net_pnl_usd": 39.23260097991325,
+      "positive_hedges": 3,
+      "negative_hedges": 1,
+      "uncovered_hedges": 0,
+      "cancel_race_only_fills": 0,
+      "ideal_zero_latency_fills": 6,
+      "max_lagged_anchor_age_ms": 18,
+      "max_hedge_book_age_ms": 8
+    },
+    "20": {
+      "fill_count": 6,
+      "hedge_groups": 4,
+      "capital_usd": 12000.0,
+      "net_pnl_usd": 39.23260097991325,
+      "positive_hedges": 3,
+      "negative_hedges": 1,
+      "uncovered_hedges": 0,
+      "cancel_race_only_fills": 0,
+      "ideal_zero_latency_fills": 6,
+      "max_lagged_anchor_age_ms": 28,
+      "max_hedge_book_age_ms": 8
+    },
+    "50": {
+      "fill_count": 6,
+      "hedge_groups": 4,
+      "capital_usd": 12000.0,
+      "net_pnl_usd": 39.23260097991325,
+      "positive_hedges": 3,
+      "negative_hedges": 1,
+      "uncovered_hedges": 0,
+      "cancel_race_only_fills": 0,
+      "ideal_zero_latency_fills": 6,
+      "max_lagged_anchor_age_ms": 76,
+      "max_hedge_book_age_ms": 8
+    },
+    "100": {
+      "fill_count": 6,
+      "hedge_groups": 4,
+      "capital_usd": 12000.0,
+      "net_pnl_usd": 39.23260097991325,
+      "positive_hedges": 3,
+      "negative_hedges": 1,
+      "uncovered_hedges": 0,
+      "cancel_race_only_fills": 0,
+      "ideal_zero_latency_fills": 6,
+      "max_lagged_anchor_age_ms": 118,
+      "max_hedge_book_age_ms": 8
+    }
+  }
+}
