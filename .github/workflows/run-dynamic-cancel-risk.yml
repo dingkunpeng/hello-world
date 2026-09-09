@@ -1,0 +1,48 @@
+name: Run dynamic cancel-race rescue test
+on:
+  push:
+    paths:
+      - 'exact_dynamic_cancel_risk_day.py'
+      - 'aggregate_dynamic_cancel_risk.py'
+      - '.github/workflows/run-dynamic-cancel-risk.yml'
+permissions:
+  contents: write
+jobs:
+  shard:
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Replay dynamic cancel shard
+        run: python exact_dynamic_cancel_risk_day.py --shard ${{ matrix.shard }} --shards 16
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dynamic-cancel-${{ matrix.shard }}
+          path: output/dynamic_cancel_risk_exact
+          retention-days: 1
+  aggregate:
+    needs: shard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: dynamic-cancel-*
+          path: output/dynamic_cancel_risk_exact
+          merge-multiple: true
+      - run: python aggregate_dynamic_cancel_risk.py
+      - name: Commit dynamic cancel results
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/dynamic_cancel_risk_exact
+          git diff --cached --quiet || git commit -m 'Add dynamic cancel-race rescue results'
+          git push
